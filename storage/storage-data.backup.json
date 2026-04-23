@@ -1,24 +1,7 @@
 {
     "clients": [
         {
-            "id": "da68a5d7-059c-47f0-8707-e87676d3187e",
-            "name": "mauro3",
-            "rut": "17.015.135-6",
-            "phone": "+56937491899",
-            "email": "mauricio@mozar.cl",
-            "address": "qwfwf",
-            "inPrison": false,
-            "prisonModule": "",
-            "imputadoStatus": "no_imputado",
-            "imputadoModule": "",
-            "representative": null,
-            "assignedTo": "",
-            "createdByLawyer": "",
-            "createdAt": "2026-04-23T16:07:00.127Z",
-            "updatedAt": "2026-04-23T16:07:00.127Z"
-        },
-        {
-            "id": "6bf878fc-89f4-42d4-8ac0-80171d3deaaf",
+            "id": "d9ab935e-26f0-44d9-8aaa-87cc344eab4c",
             "name": "CARLOS ANGULO CARABALÍ",
             "rut": "28.464.515-4",
             "phone": "",
@@ -36,11 +19,11 @@
                 "address": "",
                 "represents": "CARLOS ANGULO CARABALÍ"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "da24ada2-330f-4fa1-b54b-caa966da309e",
+            "id": "0e953e9c-29c3-40e6-adcf-345f641e8673",
             "name": "MARÍA JOSÉ HERNÁNDEZ GUERRERO",
             "rut": "19.966.967-2",
             "phone": "",
@@ -58,11 +41,11 @@
                 "address": "",
                 "represents": "MARÍA JOSÉ HERNÁNDEZ GUERRERO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "328c54eb-4cb0-443d-8908-b675a26f7021",
+            "id": "3383024b-a407-412b-81f5-371b8cc263a4",
             "name": "FREINY JOSE PARRA CHAVEZ",
             "rut": "",
             "phone": "",
@@ -80,11 +63,11 @@
                 "address": "",
                 "represents": "FREINY JOSE PARRA CHAVEZ"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "03902041-1df8-4463-89d5-63e1813611db",
+            "id": "77a51bc1-031c-4564-a41f-37d8ff8a5eca",
             "name": "JOSUE DANIEL HERNÁNDEZ LÓPEZ",
             "rut": "",
             "phone": "",
@@ -102,11 +85,11 @@
                 "address": "",
                 "represents": "JOSUE DANIEL HERNÁNDEZ LÓPEZ"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "b5cc1092-a36b-44f2-8a3c-c6e4715fd85d",
+            "id": "c4a94374-a4ad-4888-8bd2-0fb1225fcba5",
             "name": "MARIA COROMOTO GUTIERREZ",
             "rut": "21.790.563-K",
             "phone": "",
@@ -124,11 +107,11 @@
                 "address": "",
                 "represents": "MARIA COROMOTO GUTIERREZ"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "bf8c7e90-ecc2-42c4-a4e7-fe2f873bb793",
+            "id": "975e2b6c-395e-48eb-9cbb-abcc9f5dd13b",
             "name": "MIGUEL CHAVEZ VALENCIA",
             "rut": "24.207.593-5",
             "phone": "",
@@ -146,11 +129,11 @@
                 "address": "",
                 "represents": "MIGUEL CHAVEZ VALENCIA"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "a9aa3bf6-89dd-456f-bead-de9210dba0c0",
+            "id": "677ec9b0-a04f-40c6-a677-21d2bad210b8",
             "name": "ARNOL JOSE JARAMILLO GAITAN",
             "rut": "23.939.734-9",
             "phone": "",
@@ -168,11 +151,11 @@
                 "address": "",
                 "represents": "ARNOL JOSE JARAMILLO GAITAN"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "a3c2f487-5b42-4415-ab39-4d6c87944dfa",
+            "id": "9d278104-3fe5-45a4-a657-45fd2bbb2676",
             "name": "JHONSON CAÑAR URBANO",
             "rut": "25.378.621-3",
             "phone": "",
@@ -190,11 +173,11 @@
                 "address": "",
                 "represents": "JHONSON CAÑAR URBANO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "0ecc89d8-b9a9-490f-802e-ce60dca3a588",
+            "id": "1abc8262-ed57-49c2-8c9c-c5fdeb07243c",
             "name": "JEIMY VERONICA ALISTE GALLEGOS",
             "rut": "19.104.070-8",
             "phone": "",
@@ -212,11 +195,11 @@
                 "address": "",
                 "represents": "JEIMY VERONICA ALISTE GALLEGOS"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "c503631d-a00f-44af-b761-bf0dab841bc4",
+            "id": "0268f553-248c-4a65-af3f-78746df7315c",
             "name": "ROBERT ALEXANDER LINARES",
             "rut": "14.887.560-K",
             "phone": "",
@@ -234,11 +217,11 @@
                 "address": "",
                 "represents": "ROBERT ALEXANDER LINARES"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "f68e172a-30f3-4db5-95a4-e81caa27a29e",
+            "id": "d60f3220-1902-4227-8091-31abc5900a4f",
             "name": "JONATHAN PARRA MARQUEZ",
             "rut": "",
             "phone": "",
@@ -256,11 +239,11 @@
                 "address": "",
                 "represents": "JONATHAN PARRA MARQUEZ"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "57b01ec9-bbfd-4dcc-a460-14fcf758e4de",
+            "id": "fbcd2016-e763-43dc-b222-ebe29a8849a7",
             "name": "MILTON GUERRA RAMÍREZ",
             "rut": "28.483.256-6",
             "phone": "",
@@ -278,11 +261,11 @@
                 "address": "",
                 "represents": "MILTON GUERRA RAMÍREZ"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "85ff1695-14ae-4c65-9210-39304ff1b00e",
+            "id": "b622b149-f63e-4661-9143-e1c83c6d49ee",
             "name": "DYLAN DIAZ DIAZ",
             "rut": "20.905.366-7",
             "phone": "",
@@ -300,11 +283,11 @@
                 "address": "",
                 "represents": "DYLAN DIAZ DIAZ"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "00c864d9-489b-4f3c-b3df-12f31fe57ae5",
+            "id": "717bb736-a243-4271-afb6-d60ab5287517",
             "name": "ALEJANDRO IGNACIO SANHUEZA PANTA",
             "rut": "21.937.839-4",
             "phone": "",
@@ -322,11 +305,11 @@
                 "address": "",
                 "represents": "ALEJANDRO IGNACIO SANHUEZA PANTA"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "f774cdd4-2d88-473c-88c6-a7f95ce59037",
+            "id": "24859c7a-f764-411d-a7f9-69ac101bbc9f",
             "name": "WILSON ARGENIS MALDONADO SALAS",
             "rut": "14.953.103-3",
             "phone": "",
@@ -344,11 +327,11 @@
                 "address": "",
                 "represents": "WILSON ARGENIS MALDONADO SALAS"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "2c26122c-7535-4c13-843f-fa15052d3d12",
+            "id": "801896da-6a58-46e2-8341-f66b9ee6e0b6",
             "name": "KARINA VALVERDE CAICEDO",
             "rut": "28.274.082-6",
             "phone": "",
@@ -366,11 +349,11 @@
                 "address": "",
                 "represents": "KARINA VALVERDE CAICEDO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "b8e3780a-57a2-4860-84d5-36cc178bbbb6",
+            "id": "16423bc5-8f78-4c16-ae99-c192c2b5b7a1",
             "name": "DAYRON RENTERIA HURTADO",
             "rut": "",
             "phone": "",
@@ -388,11 +371,11 @@
                 "address": "",
                 "represents": "DAYRON RENTERIA HURTADO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "9fda964b-2f73-4182-bea7-c11f75e5a5f9",
+            "id": "33c68d71-b935-48b6-a841-24bebdef26cb",
             "name": "SALOME DAVME CARRASCO",
             "rut": "",
             "phone": "",
@@ -410,11 +393,11 @@
                 "address": "",
                 "represents": "SALOME DAVME CARRASCO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "bad301ac-be95-48b1-a1cc-c401bf29b449",
+            "id": "f95b80a2-50e3-4bbf-bb41-51233183baec",
             "name": "BAYRON ALEXANDER OYARCE LEAL",
             "rut": "20.545.290-7",
             "phone": "",
@@ -432,11 +415,11 @@
                 "address": "",
                 "represents": "BAYRON ALEXANDER OYARCE LEAL"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "c933d8df-6880-4083-85de-4a7c6ee99f08",
+            "id": "574c8ca8-b9d1-4e73-a2ec-02c2747ce8e7",
             "name": "JERITZON ALFREDO PEREZ MOLINA",
             "rut": "",
             "phone": "",
@@ -454,11 +437,11 @@
                 "address": "",
                 "represents": "JERITZON ALFREDO PEREZ MOLINA"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "cf397e9b-e2d0-4af2-9f7b-cdf6835612db",
+            "id": "11502bcc-0378-4de8-b682-cbeb3e821e38",
             "name": "NICOLAS ANDRES DIAZ GUERRERO",
             "rut": "21.090.473-0",
             "phone": "",
@@ -476,11 +459,11 @@
                 "address": "",
                 "represents": "NICOLAS ANDRES DIAZ GUERRERO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "c4bd9f4a-d0e6-4aa7-8f2f-19f495e0a04c",
+            "id": "a9a72781-6169-4515-97bf-bb53b5527dde",
             "name": "ANGELY PAOLA SALAZAR GUERRERO",
             "rut": "16.438.072-6",
             "phone": "",
@@ -498,11 +481,11 @@
                 "address": "",
                 "represents": "ANGELY PAOLA SALAZAR GUERRERO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "27f37b39-93a2-404b-9ade-35f8905d19aa",
+            "id": "81402098-31f8-4833-8617-090a68f56072",
             "name": "RAUL DODDIS PERALTA",
             "rut": "",
             "phone": "",
@@ -520,11 +503,11 @@
                 "address": "",
                 "represents": "RAUL DODDIS PERALTA"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "6e9ee085-0a2d-4ac8-893f-3cbf6761a5e7",
+            "id": "fb24410a-43f8-4e7a-8d05-94faea3b7e37",
             "name": "RAFAEL ANGEL MACHADO NARANJO",
             "rut": "28.219.948-3",
             "phone": "",
@@ -542,11 +525,11 @@
                 "address": "",
                 "represents": "RAFAEL ANGEL MACHADO NARANJO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "5cb5c952-4189-4dc9-b18d-f6f38bb9e00e",
+            "id": "ae2cc012-5810-4ee3-9769-d3cea84655e9",
             "name": "YEFERSON STIVEN CHACON VILLALOBOS",
             "rut": "",
             "phone": "",
@@ -564,11 +547,11 @@
                 "address": "",
                 "represents": "YEFERSON STIVEN CHACON VILLALOBOS"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "08ee0ac9-b89b-4b1f-ae00-3fb3c7ba3f77",
+            "id": "138c0013-6451-4610-a26b-bf3647b0d7d2",
             "name": "SCARLETT LISET CAUTÍN PERES",
             "rut": "",
             "phone": "",
@@ -586,11 +569,11 @@
                 "address": "",
                 "represents": "SCARLETT LISET CAUTÍN PERES"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "78f7ad2a-c5b2-4963-a7c6-f360a7bccf23",
+            "id": "1a3ae37e-1a48-43ae-9dee-be08c5b1c9eb",
             "name": "ALVARO GIMENEZ GONZALEZ",
             "rut": "21.201.806-6",
             "phone": "",
@@ -608,11 +591,11 @@
                 "address": "",
                 "represents": "ALVARO GIMENEZ GONZALEZ"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "b38223be-e73f-4a82-a1ee-a499d06ab283",
+            "id": "dbc502e2-7f44-4537-a1a4-35d97efbf5ec",
             "name": "MIGUEL AVENDAÑO MALDONADO",
             "rut": "19.397.642-5",
             "phone": "",
@@ -630,11 +613,11 @@
                 "address": "",
                 "represents": "MIGUEL AVENDAÑO MALDONADO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "43d78a0b-63fa-48ae-aaa6-19bcc0ade2cb",
+            "id": "b876c9a8-ad04-4358-b41c-b66f3965ff7d",
             "name": "KATHERINE DAYANA RAMIREZ QUINTERO",
             "rut": "",
             "phone": "",
@@ -652,11 +635,11 @@
                 "address": "",
                 "represents": "KATHERINE DAYANA RAMIREZ QUINTERO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "5464f581-fd72-4ae2-9988-005fbc3651e1",
+            "id": "6d4ea246-f315-4010-b2f7-7fc2c61782ac",
             "name": "EVELIN ANDREA GALLOSO NAVARRO",
             "rut": "14.106.430-6",
             "phone": "",
@@ -674,11 +657,11 @@
                 "address": "",
                 "represents": "EVELIN ANDREA GALLOSO NAVARRO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "70f28cea-7db4-4873-9834-644c065410d6",
+            "id": "96c2dbe9-7d2b-43f8-b54b-606b81f1eeab",
             "name": "CARMEN MARISCAL CLAROS",
             "rut": "",
             "phone": "",
@@ -696,11 +679,11 @@
                 "address": "",
                 "represents": "CARMEN MARISCAL CLAROS"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "1abb80db-07f0-484c-a53a-2c78782fcb39",
+            "id": "4f3f1862-b31a-47c6-9d3a-a3f7c7595f97",
             "name": "CRISTIAN FERNANDO LOPEZ MAYO",
             "rut": "26.050081-3",
             "phone": "",
@@ -718,11 +701,11 @@
                 "address": "",
                 "represents": "CRISTIAN FERNANDO LOPEZ MAYO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "ff4b5422-0acc-4431-b40c-176c22f6ad35",
+            "id": "5bb2826e-04a2-4faa-ada8-687ae2b06872",
             "name": "ESTHER RAMOS CRUZ",
             "rut": "27.543.353-5",
             "phone": "",
@@ -740,11 +723,11 @@
                 "address": "",
                 "represents": "ESTHER RAMOS CRUZ"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "e43e4177-5e94-4f17-889e-a74ddb4e6f28",
+            "id": "19f10bd2-dda9-409e-8895-27acc3d8d446",
             "name": "NIBALDO ROJAS CASTILLO",
             "rut": "",
             "phone": "",
@@ -762,11 +745,11 @@
                 "address": "",
                 "represents": "NIBALDO ROJAS CASTILLO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "51b10980-41a2-44a9-a2fb-42e7a3d44788",
+            "id": "a7d545ec-6573-40eb-a853-2dc7de2d8ccb",
             "name": "CRISTIAN ALEJANDRO CARDONA CHICAIZA",
             "rut": "",
             "phone": "",
@@ -784,11 +767,11 @@
                 "address": "",
                 "represents": "CRISTIAN ALEJANDRO CARDONA CHICAIZA"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "b8c9f637-72c1-410f-bcfc-c6cc2dcef163",
+            "id": "09740433-0e6c-4fb9-93cf-65dd80f597b6",
             "name": "BORIS WILSON JIMENEZ DONOSO",
             "rut": "69.479.08-1",
             "phone": "",
@@ -806,11 +789,11 @@
                 "address": "",
                 "represents": "BORIS WILSON JIMENEZ DONOSO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "608f7014-37d5-456f-be5c-90a84ac434e2",
+            "id": "4f9cb340-57b0-496c-8cb0-fcce5f91e091",
             "name": "MARCOS RONALDO CONTRERAS CARRILLO",
             "rut": "22697616",
             "phone": "",
@@ -828,11 +811,11 @@
                 "address": "",
                 "represents": "MARCOS RONALDO CONTRERAS CARRILLO"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "7149098c-73c7-42c6-bec9-416a4d8747f1",
+            "id": "b507e2c7-7098-4d46-ac76-6e1824ed4c46",
             "name": "MAO FRANCISCO RODRÍGUEZ VALVERDE",
             "rut": "25.040.854-4",
             "phone": "",
@@ -850,11 +833,11 @@
                 "address": "",
                 "represents": "MAO FRANCISCO RODRÍGUEZ VALVERDE"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "cdc26a71-e099-4dff-a797-878d384db835",
+            "id": "19dce58d-e29c-4126-9599-85464da6c66e",
             "name": "HUGO VICENCIO PEÑA",
             "rut": "18.790.211-8",
             "phone": "",
@@ -872,11 +855,11 @@
                 "address": "",
                 "represents": "HUGO VICENCIO PEÑA"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
         },
         {
-            "id": "5b1a0654-c5b0-4c47-aa3b-8c9271463b3a",
+            "id": "39d61dc8-20a4-488e-8408-b960966c24d4",
             "name": "SEBASTIAN IGNACIO AGUIRRE PIÑONES",
             "rut": "21.028.523-7",
             "phone": "",
@@ -894,8 +877,42 @@
                 "address": "",
                 "represents": "SEBASTIAN IGNACIO AGUIRRE PIÑONES"
             },
-            "createdAt": "2026-04-20T21:24:35.187Z",
-            "updatedAt": "2026-04-23T16:02:12.914Z"
+            "createdAt": "2026-04-22T18:06:57.499Z",
+            "updatedAt": "2026-04-22T18:23:37.375Z"
+        },
+        {
+            "id": "f46d6366-ddec-4c25-91ce-3f47fa92fb08",
+            "name": "saffsa",
+            "rut": "11.231.241-1",
+            "phone": "+56923121221",
+            "email": "asafaf@asfasf.com",
+            "address": "sasafafasaf",
+            "inPrison": false,
+            "prisonModule": "",
+            "imputadoStatus": "no_imputado",
+            "imputadoModule": "",
+            "representative": null,
+            "assignedTo": "Stapia",
+            "createdByLawyer": "Stapia",
+            "createdAt": "2026-04-22T18:18:36.039Z",
+            "updatedAt": "2026-04-22T18:18:36.039Z"
+        },
+        {
+            "id": "c09db29a-acd3-47d6-8ecd-b06bab12715d",
+            "name": "asdqwfqwf",
+            "rut": "11.221.221-2",
+            "phone": "+56987873742",
+            "email": "mauricio@mozar.cl",
+            "address": "qwfqfq",
+            "inPrison": false,
+            "prisonModule": "",
+            "imputadoStatus": "no_imputado",
+            "imputadoModule": "",
+            "representative": null,
+            "assignedTo": "",
+            "createdByLawyer": "",
+            "createdAt": "2026-04-22T17:51:10.852Z",
+            "updatedAt": "2026-04-22T17:51:10.852Z"
         },
         {
             "id": "55db6f1c-b1ac-4b1d-bb7b-530d7b942605",
@@ -917,24 +934,33 @@
                 "represents": "Richard"
             },
             "createdAt": "2026-04-14T16:57:14.044Z",
-            "updatedAt": "2026-04-20T21:33:03.764Z"
+            "updatedAt": "2026-04-22T17:51:10.852Z"
         },
         {
             "id": "4a09d4ad-5f1d-48ba-b4b9-5ce7428ec111",
-            "name": "kevin paredes2",
+            "name": "Kevin Paredes",
             "rut": "17.892.246-7",
             "phone": "+56930962782",
-            "email": "kepa.vejar@gmail.com",
-            "address": "salar gandre 121",
-            "inPrison": false,
+            "email": "administracion@tacam.cl",
+            "address": "Salar grande 121",
+            "inPrison": true,
             "prisonModule": "",
-            "imputadoStatus": "no_imputado",
+            "imputadoStatus": "imputado",
             "imputadoModule": "",
-            "representative": null,
+            "representative": {
+                "name": "Mauricio",
+                "lastName": "Mauro Tapia",
+                "rut": "17.891.221-3",
+                "phone": "+56930962782",
+                "email": "kepa.vejar@gmail.com",
+                "modulo": "",
+                "address": "Salar grande 121",
+                "represents": "Kevin Paredes"
+            },
             "assignedTo": "",
             "createdByLawyer": "",
             "createdAt": "2026-04-15T01:05:57.557Z",
-            "updatedAt": "2026-04-20T21:33:03.764Z"
+            "updatedAt": "2026-04-15T01:05:57.557Z"
         },
         {
             "id": "da59698c-216c-4a7e-8f9d-403167d3f71a",
@@ -956,63 +982,2176 @@
                 "represents": "Carlos Cortes"
             },
             "createdAt": "2026-04-14T16:40:06.352Z",
-            "updatedAt": "2026-04-20T21:33:03.764Z"
-        }
-    ],
-    "bookings": [
+            "updatedAt": "2026-04-22T17:51:10.852Z"
+        },
         {
-            "id": "4190f71c-75de-4a35-86d2-e4657680bf59",
-            "clientId": "bad301ac-be95-48b1-a1cc-c401bf29b449",
-            "customer": "BAYRON ALEXANDER OYARCE LEAL",
+            "id": "c731e8ed-b4b3-4e68-aff8-5c8a93385780",
+            "name": "CARLOS ANGULO CARABALÍ",
+            "rut": "28.464.515-4",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "9c94a9c6-182d-4528-97c3-af587d87ecdb",
+            "name": "MARÍA JOSÉ HERNÁNDEZ GUERRERO",
+            "rut": "19.966.967-2",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "dd8bce60-6dc4-46dc-a1d0-5874896930fc",
+            "name": "FREINY JOSE PARRA CHAVEZ",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "TALTAL",
+            "prisonModule": "TALTAL",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "abe1b04a-4980-4541-9fdf-ef0ceb1cdf80",
+            "name": "JOSUE DANIEL HERNÁNDEZ LÓPEZ",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "TALTAL",
+            "prisonModule": "TALTAL",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "de15aa3e-e51d-40d8-b403-07ff439c059c",
+            "name": "MARIA COROMOTO GUTIERREZ",
+            "rut": "21.790.563-K",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "2b04237b-e9c0-4838-bba0-e6c83e665b72",
+            "name": "MIGUEL CHAVEZ VALENCIA",
+            "rut": "24.207.593-5",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "46",
+            "prisonModule": "46",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "1ebefadd-ed24-4c59-91bf-702544c139ce",
+            "name": "ARNOL JOSE JARAMILLO GAITAN",
+            "rut": "23.939.734-9",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "6c2305f3-df63-4684-a2f9-b45a1e27337e",
+            "name": "JHONSON CAÑAR URBANO",
+            "rut": "25.378.621-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "6afc6cb8-653a-4578-9974-6254dd286079",
+            "name": "JEIMY VERONICA ALISTE GALLEGOS",
+            "rut": "19.104.070-8",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "3c54824c-e2cf-4c86-b6df-ff7a4f5027be",
+            "name": "ROBERT ALEXANDER LINARES",
+            "rut": "14.887.560-K",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "69462692-d75c-404a-b62a-725055d0e96d",
+            "name": "JONATHAN PARRA MARQUEZ",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "2f88479e-6f9a-44dd-8a3d-4dbd1e383bf0",
+            "name": "MILTON GUERRA RAMÍREZ",
+            "rut": "28.483.256-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "93ab2c7c-6c95-4179-a9de-eff50e980164",
+            "name": "DYLAN DIAZ DIAZ",
+            "rut": "20.905.366-7",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "a1a5e64f-6c86-4915-b0d1-611192240114",
+            "name": "ALEJANDRO IGNACIO SANHUEZA PANTA",
+            "rut": "21.937.839-4",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "17a6ecb5-4607-4db4-bf42-aaf34683d627",
+            "name": "WILSON ARGENIS MALDONADO SALAS",
+            "rut": "14.953.103-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "cbbef05f-5967-48ad-bfff-127d69c64217",
+            "name": "KARINA VALVERDE CAICEDO",
+            "rut": "28.274.082-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "004dc44f-7c1e-4458-9fdd-c0744a90cafe",
+            "name": "DAYRON RENTERIA HURTADO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "1f44e521-8ed6-45e1-b2b1-23fccd3c9837",
+            "name": "SALOME DAVME CARRASCO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "012d2777-bcde-4d76-b5e1-ffe558068ded",
+            "name": "BAYRON ALEXANDER OYARCE LEAL",
             "rut": "20.545.290-7",
             "phone": "",
             "email": "",
             "address": "",
-            "matter": "Visita a la Cárcel",
-            "prisonModule": "",
             "inPrison": true,
-            "date": "2026-04-21",
-            "time": "09:30",
-            "assignedTo": "SARA BERNARDA TAPIA GONZÁLEZ",
-            "hiredLawyer": true,
-            "notes": "",
-            "notificationsConsent": false,
-            "consentAt": "",
-            "prisonAttendance": "",
-            "status": "confirmada",
-            "createdAt": "2026-04-20T21:41:16.143Z",
-            "updatedAt": "2026-04-20T21:41:16.143Z",
-            "reminder24hSentAt": "",
-            "reminder1hSentAt": "",
-            "checkedInAt": "",
-            "imputadoStatus": "no_imputado",
-            "representative": null
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
         },
         {
-            "id": "71923e19-da90-4ce5-9f76-d8b24c520218",
-            "clientId": "4a09d4ad-5f1d-48ba-b4b9-5ce7428ec111",
-            "customer": "kevin paredes2",
+            "id": "fe62bfe3-34de-4090-bd51-098f4094fd7a",
+            "name": "JERITZON ALFREDO PEREZ MOLINA",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "14c982b3-07a5-41b0-8b83-bea56ad6ba93",
+            "name": "NICOLAS ANDRES DIAZ GUERRERO",
+            "rut": "21.090.473-0",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "6a584e64-54ac-4020-badb-fad2093287a1",
+            "name": "ANGELY PAOLA SALAZAR GUERRERO",
+            "rut": "16.438.072-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "d38fc528-6e5e-49f4-85cf-8bb740bb45cd",
+            "name": "RAUL DODDIS PERALTA",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "46a2d9f2-fd89-4bfe-a1ae-e0538050ad88",
+            "name": "RAFAEL ANGEL MACHADO NARANJO",
+            "rut": "28.219.948-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "3285755d-182c-458b-a7ab-49381962833b",
+            "name": "YEFERSON STIVEN CHACON VILLALOBOS",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "TALTAL",
+            "prisonModule": "TALTAL",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "355a384f-12f7-4aa4-bf13-1b4f26e76410",
+            "name": "SCARLETT LISET CAUTÍN PERES",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "c63270b7-21e5-4806-bc9b-9c0ce01caf1f",
+            "name": "ALVARO GIMENEZ GONZALEZ",
+            "rut": "21.201.806-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "b520f8d1-f26f-4668-8bf4-787836c9762b",
+            "name": "MIGUEL AVENDAÑO MALDONADO",
+            "rut": "19.397.642-5",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "db2ed96f-5bce-462f-a6f0-cd4746aafb2c",
+            "name": "KATHERINE DAYANA RAMIREZ QUINTERO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "0d1a6d15-e910-4b56-a9af-d31588a5df67",
+            "name": "EVELIN ANDREA GALLOSO NAVARRO",
+            "rut": "14.106.430-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "c50a94e3-1cc5-4dff-a0e6-47e5d9997861",
+            "name": "CARMEN MARISCAL CLAROS",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "3c557450-18e8-433b-a218-bae1476cbf88",
+            "name": "CRISTIAN FERNANDO LOPEZ MAYO",
+            "rut": "26.050081-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "bc479546-a6eb-4dce-ac6c-bfaa8d0a6fa7",
+            "name": "ESTHER RAMOS CRUZ",
+            "rut": "27.543.353-5",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "86850069-6014-4f9b-b44b-902893f3c419",
+            "name": "NIBALDO ROJAS CASTILLO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "9943190c-48ac-49e5-890d-90b0e75dc601",
+            "name": "CRISTIAN ALEJANDRO CARDONA CHICAIZA",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "b9269110-e684-4afd-a685-1569ef4d1b29",
+            "name": "BORIS WILSON JIMENEZ DONOSO",
+            "rut": "69.479.08-1",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "9e1d5bce-96f9-4326-9a42-6960df61b590",
+            "name": "MARCOS RONALDO CONTRERAS CARRILLO",
+            "rut": "22697616",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "15a646ea-f096-4f2d-9291-9476a805b91f",
+            "name": "MAO FRANCISCO RODRÍGUEZ VALVERDE",
+            "rut": "25.040.854-4",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "38b9ad32-05a9-4666-8bdb-d98dd4f05716",
+            "name": "HUGO VICENCIO PEÑA",
+            "rut": "18.790.211-8",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "d6eb8b4d-1cba-4f70-848c-d4098c6bfd41",
+            "name": "SEBASTIAN IGNACIO AGUIRRE PIÑONES",
+            "rut": "21.028.523-7",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:23:35.841Z",
+            "updatedAt": "2026-04-22T18:23:35.841Z"
+        },
+        {
+            "id": "15d81ab2-faf1-485f-a16b-abda0a039ecc",
+            "name": "CARLOS ANGULO CARABALÍ",
+            "rut": "28.464.515-4",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "CARLOS ANGULO CARABALÍ"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "7943fb10-c5a5-49a6-bbcb-67865bc74691",
+            "name": "MARÍA JOSÉ HERNÁNDEZ GUERRERO",
+            "rut": "19.966.967-2",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "MARÍA JOSÉ HERNÁNDEZ GUERRERO"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "70b2022c-50e5-40cf-8973-660b2f1989aa",
+            "name": "FREINY JOSE PARRA CHAVEZ",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "TALTAL",
+            "prisonModule": "TALTAL",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "FREINY JOSE PARRA CHAVEZ"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "e348c86f-ffc0-49ed-bd0a-30fbb4e38f16",
+            "name": "JOSUE DANIEL HERNÁNDEZ LÓPEZ",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "TALTAL",
+            "prisonModule": "TALTAL",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "JOSUE DANIEL HERNÁNDEZ LÓPEZ"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "481fbfa6-6a9b-4ab6-ac4f-7395da844284",
+            "name": "MARIA COROMOTO GUTIERREZ",
+            "rut": "21.790.563-K",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "MARIA COROMOTO GUTIERREZ"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "88bc5896-2020-428a-a26d-93cf46c17883",
+            "name": "MIGUEL CHAVEZ VALENCIA",
+            "rut": "24.207.593-5",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "46",
+            "prisonModule": "46",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "MIGUEL CHAVEZ VALENCIA"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "3a0bce40-a9bd-4639-b5a8-4699431a0cde",
+            "name": "ARNOL JOSE JARAMILLO GAITAN",
+            "rut": "23.939.734-9",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "ARNOL JOSE JARAMILLO GAITAN"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "22e5f0e2-c1ab-4f22-9831-caeb0a5c9cef",
+            "name": "JHONSON CAÑAR URBANO",
+            "rut": "25.378.621-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "JHONSON CAÑAR URBANO"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "79b678a9-ce62-43e0-b9b7-045b37edf3a4",
+            "name": "JEIMY VERONICA ALISTE GALLEGOS",
+            "rut": "19.104.070-8",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "JEIMY VERONICA ALISTE GALLEGOS"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "d8b3bf77-73f4-49cf-9132-b3eef9270f12",
+            "name": "ROBERT ALEXANDER LINARES",
+            "rut": "14.887.560-K",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "ROBERT ALEXANDER LINARES"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "b8218e98-bc42-474f-bac0-882754ca2b3e",
+            "name": "JONATHAN PARRA MARQUEZ",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "JONATHAN PARRA MARQUEZ"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "3c34b2e6-7316-4f42-af72-15affdabae78",
+            "name": "MILTON GUERRA RAMÍREZ",
+            "rut": "28.483.256-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "MILTON GUERRA RAMÍREZ"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "7fcf90fa-91be-4103-a811-8b29d45dd08d",
+            "name": "DYLAN DIAZ DIAZ",
+            "rut": "20.905.366-7",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "DYLAN DIAZ DIAZ"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "4db3da59-15d4-440d-8919-a2c513586263",
+            "name": "ALEJANDRO IGNACIO SANHUEZA PANTA",
+            "rut": "21.937.839-4",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "ALEJANDRO IGNACIO SANHUEZA PANTA"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "5d9c40dc-3b96-432f-beb1-9fd33c45e4b5",
+            "name": "WILSON ARGENIS MALDONADO SALAS",
+            "rut": "14.953.103-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "WILSON ARGENIS MALDONADO SALAS"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "a44e3bd5-e0f2-452c-a557-5aca3b2175c8",
+            "name": "KARINA VALVERDE CAICEDO",
+            "rut": "28.274.082-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "KARINA VALVERDE CAICEDO"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "87ec041a-60b1-498a-9936-c95ae40f21b1",
+            "name": "DAYRON RENTERIA HURTADO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "DAYRON RENTERIA HURTADO"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "bed2b60d-96c4-4e1c-9948-0d336a78918c",
+            "name": "SALOME DAVME CARRASCO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "SALOME DAVME CARRASCO"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "8a4b2ae9-45f7-44c4-bfa7-a0a0446b5f6b",
+            "name": "BAYRON ALEXANDER OYARCE LEAL",
+            "rut": "20.545.290-7",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "BAYRON ALEXANDER OYARCE LEAL"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "caea67ae-ecbb-4fc6-a53f-badd4c652a6b",
+            "name": "JERITZON ALFREDO PEREZ MOLINA",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "JERITZON ALFREDO PEREZ MOLINA"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "b0f9bf8b-6094-4eae-8b58-9ab16bbfd030",
+            "name": "NICOLAS ANDRES DIAZ GUERRERO",
+            "rut": "21.090.473-0",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "NICOLAS ANDRES DIAZ GUERRERO"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "e4f04e2a-d2a3-4a87-aea3-c1641b2a0060",
+            "name": "ANGELY PAOLA SALAZAR GUERRERO",
+            "rut": "16.438.072-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "ANGELY PAOLA SALAZAR GUERRERO"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "e44ad497-b74a-4703-9a7d-1a9bc12ed695",
+            "name": "RAUL DODDIS PERALTA",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "RAUL DODDIS PERALTA"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "31d77fc3-afdc-4a89-84ad-820b08e95d20",
+            "name": "RAFAEL ANGEL MACHADO NARANJO",
+            "rut": "28.219.948-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "RAFAEL ANGEL MACHADO NARANJO"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "176a62a7-6271-46d0-a5ea-35b89c22cad3",
+            "name": "YEFERSON STIVEN CHACON VILLALOBOS",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "TALTAL",
+            "prisonModule": "TALTAL",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "YEFERSON STIVEN CHACON VILLALOBOS"
+            },
+            "createdAt": "2026-04-22T16:18:20.267Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "50ea8733-2e99-4a00-833e-573c7e35e125",
+            "name": "SCARLETT LISET CAUTÍN PERES",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "SCARLETT LISET CAUTÍN PERES"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "4094e5ff-934b-423b-9a63-5a1a29093703",
+            "name": "ALVARO GIMENEZ GONZALEZ",
+            "rut": "21.201.806-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "ALVARO GIMENEZ GONZALEZ"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "9010f375-1b4d-4252-aaa5-54ab906d4628",
+            "name": "MIGUEL AVENDAÑO MALDONADO",
+            "rut": "19.397.642-5",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "MIGUEL AVENDAÑO MALDONADO"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "0e840879-b960-4df8-9096-77a64d20d0a7",
+            "name": "KATHERINE DAYANA RAMIREZ QUINTERO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "KATHERINE DAYANA RAMIREZ QUINTERO"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "9c6de9ef-4467-4aa2-b595-6c36813ef92b",
+            "name": "EVELIN ANDREA GALLOSO NAVARRO",
+            "rut": "14.106.430-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "EVELIN ANDREA GALLOSO NAVARRO"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "aec4b1d2-a95c-4343-98f7-3285b1949c7b",
+            "name": "CARMEN MARISCAL CLAROS",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "CARMEN MARISCAL CLAROS"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "cd823afa-8d04-499e-9e1e-75836e7c06c4",
+            "name": "CRISTIAN FERNANDO LOPEZ MAYO",
+            "rut": "26.050081-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "CRISTIAN FERNANDO LOPEZ MAYO"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "ca090166-a4b8-434e-b6cf-9edaed2ab594",
+            "name": "ESTHER RAMOS CRUZ",
+            "rut": "27.543.353-5",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "ESTHER RAMOS CRUZ"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "9aa75e86-2fd8-46d9-8368-ee087e3fbc13",
+            "name": "NIBALDO ROJAS CASTILLO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "NIBALDO ROJAS CASTILLO"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "43da2678-e98c-493e-9425-edaf1ac3daba",
+            "name": "CRISTIAN ALEJANDRO CARDONA CHICAIZA",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "CRISTIAN ALEJANDRO CARDONA CHICAIZA"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "cecbf39a-776a-4495-858b-cfff5f0c6941",
+            "name": "BORIS WILSON JIMENEZ DONOSO",
+            "rut": "69.479.08-1",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "BORIS WILSON JIMENEZ DONOSO"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "9f08fc7f-e4cb-4d99-ae42-bcd5c27b347a",
+            "name": "MARCOS RONALDO CONTRERAS CARRILLO",
+            "rut": "22697616",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "MARCOS RONALDO CONTRERAS CARRILLO"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "5f0f2625-bc42-4ba4-a548-63be60153b9c",
+            "name": "MAO FRANCISCO RODRÍGUEZ VALVERDE",
+            "rut": "25.040.854-4",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "MAO FRANCISCO RODRÍGUEZ VALVERDE"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "59ec1749-53e8-477d-b1f7-597e931d2b3e",
+            "name": "HUGO VICENCIO PEÑA",
+            "rut": "18.790.211-8",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "HUGO VICENCIO PEÑA"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "9b5e662e-beab-4ee4-9235-4f4642e06463",
+            "name": "SEBASTIAN IGNACIO AGUIRRE PIÑONES",
+            "rut": "21.028.523-7",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": {
+                "name": "",
+                "rut": "",
+                "phone": "",
+                "email": "",
+                "address": "",
+                "represents": "SEBASTIAN IGNACIO AGUIRRE PIÑONES"
+            },
+            "createdAt": "2026-04-22T16:18:20.266Z",
+            "updatedAt": "2026-04-22T18:18:40.595Z"
+        },
+        {
+            "id": "49f1f87b-4a0c-4860-b5c3-7d9ca8abb1de",
+            "name": "CARLOS ANGULO CARABALÍ",
+            "rut": "28.464.515-4",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "095eca9f-22e3-4ad2-894e-3201814f9054",
+            "name": "MARÍA JOSÉ HERNÁNDEZ GUERRERO",
+            "rut": "19.966.967-2",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "00303630-aa1b-490c-ac8f-3647a4f1e159",
+            "name": "FREINY JOSE PARRA CHAVEZ",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "TALTAL",
+            "prisonModule": "TALTAL",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "1bc035d1-513c-4626-9004-3099dc714777",
+            "name": "JOSUE DANIEL HERNÁNDEZ LÓPEZ",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "TALTAL",
+            "prisonModule": "TALTAL",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "0922a35f-b804-4731-8613-753ef0fe8133",
+            "name": "MARIA COROMOTO GUTIERREZ",
+            "rut": "21.790.563-K",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "d9bf6dd4-ae48-406e-a369-fe0fa04bdd80",
+            "name": "MIGUEL CHAVEZ VALENCIA",
+            "rut": "24.207.593-5",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "46",
+            "prisonModule": "46",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "0689b28c-b088-4a28-b79b-5846ad1f84a0",
+            "name": "ARNOL JOSE JARAMILLO GAITAN",
+            "rut": "23.939.734-9",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "05a449fe-2a71-40eb-a405-83a150e7ea8e",
+            "name": "JHONSON CAÑAR URBANO",
+            "rut": "25.378.621-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "18c0a703-417a-4c05-9bdd-020e991ea17b",
+            "name": "JEIMY VERONICA ALISTE GALLEGOS",
+            "rut": "19.104.070-8",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "162ccda7-83ca-4b66-b46b-bce2839a19dd",
+            "name": "ROBERT ALEXANDER LINARES",
+            "rut": "14.887.560-K",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "01e10cde-1418-40d3-bc2c-e1acc6b06e68",
+            "name": "JONATHAN PARRA MARQUEZ",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "ac282d22-48dc-4f89-93c8-d0da431379bc",
+            "name": "MILTON GUERRA RAMÍREZ",
+            "rut": "28.483.256-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "3a46c207-c728-420c-94a9-96943ca3f526",
+            "name": "DYLAN DIAZ DIAZ",
+            "rut": "20.905.366-7",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "6c9c19af-f715-45d6-9230-20402711a11e",
+            "name": "ALEJANDRO IGNACIO SANHUEZA PANTA",
+            "rut": "21.937.839-4",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "abd24f46-a3a2-4d97-b513-90f0280db21a",
+            "name": "WILSON ARGENIS MALDONADO SALAS",
+            "rut": "14.953.103-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "169651ea-4c24-492f-831e-19f369cf877c",
+            "name": "KARINA VALVERDE CAICEDO",
+            "rut": "28.274.082-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "0ed5f3af-59d0-4b56-825c-e69b0e06f535",
+            "name": "DAYRON RENTERIA HURTADO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "df0141f3-8b3a-44c7-a449-66434297c84e",
+            "name": "SALOME DAVME CARRASCO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "81851658-377e-46c1-ba92-2281ef0d4108",
+            "name": "BAYRON ALEXANDER OYARCE LEAL",
+            "rut": "20.545.290-7",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "0f4be0bf-dc2c-483c-b337-54a0f3433582",
+            "name": "JERITZON ALFREDO PEREZ MOLINA",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "cc47c4af-2125-4de1-a768-9f07a0d882ae",
+            "name": "NICOLAS ANDRES DIAZ GUERRERO",
+            "rut": "21.090.473-0",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "13d3c8ac-765d-4bd9-9027-c462455d5660",
+            "name": "ANGELY PAOLA SALAZAR GUERRERO",
+            "rut": "16.438.072-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "9e95383f-cb95-4af7-93cf-c873ac2646f0",
+            "name": "RAUL DODDIS PERALTA",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "0730cb62-e37f-4444-8aa7-fea0d5b5fe45",
+            "name": "RAFAEL ANGEL MACHADO NARANJO",
+            "rut": "28.219.948-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "b727f741-fe69-4cef-bec9-bcc1bdf26ba3",
+            "name": "YEFERSON STIVEN CHACON VILLALOBOS",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "TALTAL",
+            "prisonModule": "TALTAL",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "f3a2194b-3322-46ba-a10d-417d735ed6bd",
+            "name": "SCARLETT LISET CAUTÍN PERES",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "aaa213a8-23e1-4874-b097-d8f048a7178f",
+            "name": "ALVARO GIMENEZ GONZALEZ",
+            "rut": "21.201.806-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "c1ae079e-c740-45f2-a629-3b3021ba21ae",
+            "name": "MIGUEL AVENDAÑO MALDONADO",
+            "rut": "19.397.642-5",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "436e1093-c329-40b8-a307-2096f34b0fc3",
+            "name": "KATHERINE DAYANA RAMIREZ QUINTERO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "c3c71b69-5942-4ec6-99fd-e4356267b2bb",
+            "name": "EVELIN ANDREA GALLOSO NAVARRO",
+            "rut": "14.106.430-6",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "5b3dfba6-ec3e-4fc2-8198-e9fcefd632e1",
+            "name": "CARMEN MARISCAL CLAROS",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "c09b9df8-2dd0-4721-9666-041abead4022",
+            "name": "CRISTIAN FERNANDO LOPEZ MAYO",
+            "rut": "26.050081-3",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "3d3f0654-bc42-4f58-989c-ce49ffbf38b8",
+            "name": "ESTHER RAMOS CRUZ",
+            "rut": "27.543.353-5",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "1bc8174f-5bf8-4942-b0db-5a3ec07f74b3",
+            "name": "NIBALDO ROJAS CASTILLO",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "32f8b3ce-cb70-4cc4-ad7a-49e47f5a86bf",
+            "name": "CRISTIAN ALEJANDRO CARDONA CHICAIZA",
+            "rut": "",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "c23e613d-53a1-410d-a491-79878695aa73",
+            "name": "BORIS WILSON JIMENEZ DONOSO",
+            "rut": "69.479.08-1",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "9a614825-fcc5-4ea2-9d1c-f066161fc0fd",
+            "name": "MARCOS RONALDO CONTRERAS CARRILLO",
+            "rut": "22697616",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "cc442bdd-41f3-4a71-8642-567415ba6175",
+            "name": "MAO FRANCISCO RODRÍGUEZ VALVERDE",
+            "rut": "25.040.854-4",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "2f0a160d-293f-4bee-9ef5-508026a33094",
+            "name": "HUGO VICENCIO PEÑA",
+            "rut": "18.790.211-8",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "5c5157cb-e127-4e53-9ccb-aade160a5935",
+            "name": "SEBASTIAN IGNACIO AGUIRRE PIÑONES",
+            "rut": "21.028.523-7",
+            "phone": "",
+            "email": "",
+            "address": "",
+            "inPrison": true,
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "prisonModule": "",
+            "representative": null,
+            "createdAt": "2026-04-22T18:16:44.903Z",
+            "updatedAt": "2026-04-22T18:16:44.903Z"
+        },
+        {
+            "id": "947c408e-34da-4bac-b80e-b0d06dcb6955",
+            "name": "Kevin Paredes",
             "rut": "17.892.246-7",
-            "phone": "+56930962782",
+            "phone": "+56930972892",
             "email": "kepa.vejar@gmail.com",
-            "address": "salar gandre 121",
+            "address": "Salar grande 121",
+            "inPrison": false,
+            "prisonModule": "",
+            "imputadoStatus": "imputado",
+            "imputadoModule": "",
+            "representative": {
+                "name": "Kevin",
+                "rut": "",
+                "phone": "+56930962782",
+                "email": "kepa.vejar@gmail.com",
+                "address": "Salar grande 121",
+                "represents": "Kevin Paredes"
+            },
+            "createdAt": "2026-04-14T16:56:10.114Z"
+        },
+        {
+            "id": "da10b812-98d3-44d8-b106-d16c65b50972",
+            "name": "Cliente Demo",
+            "rut": "12.345.678-9",
+            "phone": "+56911111111",
+            "email": "cliente.demo@tacam.cl",
+            "address": "Dirección demo",
+            "imputadoStatus": "no_imputado",
+            "representative": null,
+            "createdAt": "2026-04-13T22:26:42.592Z",
+            "updatedAt": "2026-04-15T01:05:57.557Z"
+        }
+    ],
+    "bookings": [
+        {
+            "id": "5c13527d-ea0e-4b0c-a1a0-fc513b7d51f4",
+            "clientId": "f46d6366-ddec-4c25-91ce-3f47fa92fb08",
+            "customer": "saffsa",
+            "rut": "11.231.241-1",
+            "phone": "+56923121221",
+            "email": "asafaf@asfasf.com",
+            "address": "sasafafasaf",
             "inPrison": false,
             "prisonModule": "",
             "imputadoStatus": "no_imputado",
             "representative": null,
-            "matter": "Familia",
-            "date": "2026-04-21",
-            "time": "10:33",
-            "assignedTo": "CONSTANZA ROCÍO CLIMENT DEL RÍO",
+            "matter": "Penal",
+            "date": "",
+            "time": "",
+            "assignedTo": "Stapia",
             "hiredLawyer": true,
             "notes": "",
             "notificationsConsent": true,
-            "consentAt": "2026-04-20T21:33:58.460Z",
+            "consentAt": "2026-04-22T18:18:55.255Z",
             "prisonAttendance": "",
-            "status": "atendida",
-            "createdAt": "2026-04-20T21:33:58.460Z",
-            "updatedAt": "2026-04-20T21:33:58.460Z",
-            "reminder24hSentAt": "2026-04-20T21:33:59.369Z",
+            "status": "nueva",
+            "createdAt": "2026-04-22T18:18:55.255Z",
+            "updatedAt": "2026-04-22T18:18:55.255Z",
+            "reminder24hSentAt": "",
+            "reminder1hSentAt": "",
+            "checkedInAt": ""
+        },
+        {
+            "id": "13953d25-9f9b-42d2-bdb8-88157de52e38",
+            "clientId": "c09db29a-acd3-47d6-8ecd-b06bab12715d",
+            "customer": "asdqwfqwf",
+            "rut": "11.221.221-2",
+            "phone": "+56987873742",
+            "email": "mauricio@mozar.cl",
+            "address": "qwfqfq",
+            "inPrison": false,
+            "prisonModule": "",
+            "imputadoStatus": "no_imputado",
+            "representative": null,
+            "matter": "",
+            "date": "2026-04-24",
+            "time": "20:20",
+            "assignedTo": "",
+            "hiredLawyer": true,
+            "notes": "",
+            "notificationsConsent": true,
+            "consentAt": "2026-04-22T17:51:45.725Z",
+            "prisonAttendance": "",
+            "status": "nueva",
+            "createdAt": "2026-04-22T17:51:45.725Z",
+            "updatedAt": "2026-04-22T17:51:45.725Z",
+            "reminder24hSentAt": "",
             "reminder1hSentAt": "",
             "checkedInAt": ""
         },
@@ -1160,7 +3299,7 @@
             "matter": "Visita a la Cárcel",
             "prisonModule": "",
             "inPrison": true,
-            "date": "2026-04-24",
+            "date": "2026-04-16",
             "time": "17:20",
             "assignedTo": "SARA BERNARDA TAPIA GONZÁLEZ",
             "hiredLawyer": true,
@@ -1170,7 +3309,7 @@
             "prisonAttendance": "",
             "status": "confirmada",
             "createdAt": "2026-04-15T01:17:19.559Z",
-            "updatedAt": "2026-04-23T16:02:41.976Z",
+            "updatedAt": "2026-04-15T01:17:19.559Z",
             "reminder24hSentAt": "",
             "reminder1hSentAt": "",
             "checkedInAt": ""
@@ -1186,7 +3325,7 @@
             "matter": "Visita a la Cárcel",
             "prisonModule": "",
             "inPrison": true,
-            "date": "2026-04-16",
+            "date": "2026-04-23",
             "time": "23:18",
             "assignedTo": "SARA BERNARDA TAPIA GONZÁLEZ",
             "hiredLawyer": true,
@@ -1199,8 +3338,7 @@
             "updatedAt": "2026-04-15T01:16:43.440Z",
             "reminder24hSentAt": "",
             "reminder1hSentAt": "",
-            "checkedInAt": "",
-            "gendarmeriaNotifiedAt": "2026-04-20T21:27:20.922Z"
+            "checkedInAt": ""
         },
         {
             "id": "ca98a052-4174-4514-b8fc-8b3c08791a5e",
@@ -1331,45 +3469,19 @@
             "email": "daracena@tacam.cl",
             "phone": "",
             "photo": "assets/logo-color.svg"
-        },
-        {
-            "id": "52df6a58-489c-4378-9f77-c99633363927",
-            "name": "ASISTENTE",
-            "specialty": "",
-            "phone": "",
-            "email": "asistente@tacam.cl",
-            "rut": "",
-            "photo": "assets/logo-color.svg"
-        },
-        {
-            "id": "e83dd58f-aa1c-445c-8a38-c20270ab0055",
-            "name": "ESTUDIOJURIDICO",
-            "specialty": "",
-            "phone": "",
-            "email": "estudiojuridico@tacam.cl",
-            "rut": "",
-            "photo": "assets/logo-color.svg"
-        },
-        {
-            "id": "a87f2a98-9fcc-43a2-9935-6c7e8a045046",
-            "name": "ADMINISTRACION",
-            "specialty": "",
-            "phone": "",
-            "email": "administracion@tacam.cl",
-            "rut": "",
-            "photo": "assets/logo-color.svg"
         }
     ],
     "profiles": [
         {
-            "id": "a536800a-b232-42a9-a971-23568639be30",
-            "name": "STAPIA",
+            "id": "7d613bfc-9f28-4fae-9ad9-c1a34625fae6",
+            "name": "Stapia",
             "username": "stapia",
             "password": "tacam123",
             "role": "Abogada",
             "email": "stapia@tacam.cl",
             "phone": "",
             "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1377,14 +3489,15 @@
             ]
         },
         {
-            "id": "33e16166-91a1-436d-b20b-dd7e02b96872",
-            "name": "VREICHERT",
+            "id": "17001d66-f728-49a3-a029-14fb67adb266",
+            "name": "Vreichert",
             "username": "vreichert",
             "password": "tacam123",
             "role": "Abogada",
             "email": "vreichert@tacam.cl",
             "phone": "",
             "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1392,14 +3505,15 @@
             ]
         },
         {
-            "id": "614a6cc9-84b0-488f-804e-fd40f796fa5f",
-            "name": "CCLIMENT",
+            "id": "aa4082e2-4dfb-445e-a5da-0af27dcebbee",
+            "name": "Ccliment",
             "username": "ccliment",
             "password": "tacam123",
             "role": "Abogada",
             "email": "ccliment@tacam.cl",
             "phone": "",
             "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1407,14 +3521,31 @@
             ]
         },
         {
-            "id": "1bfb1b42-6794-4b22-9a76-c3ebf5d40ed7",
-            "name": "DARACENA",
+            "id": "f266e020-6eed-4d4d-bb76-75406a800bc5",
+            "name": "Kserrano",
+            "username": "kserrano",
+            "password": "tacam123",
+            "role": "Abogada",
+            "email": "kserrano@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
+            "permissions": [
+                "Visitas",
+                "Imputados",
+                "Editar contactos"
+            ]
+        },
+        {
+            "id": "b8da3a5e-478a-43a3-add0-7e38ade97037",
+            "name": "Daracena",
             "username": "daracena",
             "password": "tacam123",
             "role": "Abogada",
             "email": "daracena@tacam.cl",
             "phone": "",
             "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1422,7 +3553,7 @@
             ]
         },
         {
-            "id": "0f60da8a-00bb-416f-9af1-5fb89b43ca7f",
+            "id": "307a7fd7-1782-4e86-937e-ec0fbd12c8fe",
             "name": "Administrador TACAM",
             "username": "admin",
             "password": "admin",
@@ -1439,7 +3570,87 @@
             ]
         },
         {
-            "id": "d5313b97-786d-4687-a9f9-648e49c8454c",
+            "id": "3a4dfd30-fd1d-4798-a35e-f3d1a7a2e2c6",
+            "name": "Stapia",
+            "username": "stapia",
+            "password": "tacam123",
+            "role": "Abogada",
+            "email": "stapia@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
+            "permissions": [
+                "Visitas",
+                "Imputados",
+                "Editar contactos"
+            ]
+        },
+        {
+            "id": "1d274d85-8286-46bd-89cb-145cc77afeef",
+            "name": "Vreichert",
+            "username": "vreichert",
+            "password": "tacam123",
+            "role": "Abogada",
+            "email": "vreichert@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
+            "permissions": [
+                "Visitas",
+                "Imputados",
+                "Editar contactos"
+            ]
+        },
+        {
+            "id": "dfb6fbd1-197d-47fc-91ac-3189f69598ff",
+            "name": "Ccliment",
+            "username": "ccliment",
+            "password": "tacam123",
+            "role": "Abogada",
+            "email": "ccliment@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
+            "permissions": [
+                "Visitas",
+                "Imputados",
+                "Editar contactos"
+            ]
+        },
+        {
+            "id": "b09ce18a-0b3c-44c6-91d8-9cbbee4df6eb",
+            "name": "Kserrano",
+            "username": "kserrano",
+            "password": "tacam123",
+            "role": "Abogada",
+            "email": "kserrano@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
+            "permissions": [
+                "Visitas",
+                "Imputados",
+                "Editar contactos"
+            ]
+        },
+        {
+            "id": "93dc425a-6fca-4120-b8d2-482e4c90e836",
+            "name": "Daracena",
+            "username": "daracena",
+            "password": "tacam123",
+            "role": "Abogada",
+            "email": "daracena@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
+            "permissions": [
+                "Visitas",
+                "Imputados",
+                "Editar contactos"
+            ]
+        },
+        {
+            "id": "fbf38c86-579d-45cc-b055-11cf445b1cab",
             "name": "Administrador TACAM",
             "username": "admin",
             "password": "admin",
@@ -1456,134 +3667,15 @@
             ]
         },
         {
-            "id": "5d671368-8215-4560-a8d3-ccaeb0c2f86e",
-            "name": "ADMINISTRACION",
-            "username": "administracion",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "administracion@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "3e923990-c180-481d-8e4a-48a5f926e66f",
-            "name": "ESTUDIOJURIDICO",
-            "username": "estudiojuridico",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "estudiojuridico@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "f429225a-73cf-4f46-a5dd-8d7245345b1e",
-            "name": "ASISTENTE",
-            "username": "asistente",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "asistente@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "cd2a8624-38ed-475a-a45c-7a427fb8838e",
-            "name": "ADMINISTRACION",
-            "username": "administracion",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "administracion@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "7f9b81d6-c697-4c3b-ae70-fc15e8211712",
-            "name": "ESTUDIOJURIDICO",
-            "username": "estudiojuridico",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "estudiojuridico@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "dcc35b7b-ff70-4b01-9b01-a4108cffb151",
-            "name": "ASISTENTE",
-            "username": "asistente",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "asistente@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "0288a02f-40b9-47cc-921e-6c3174f0fa4b",
-            "name": "CCLIMENT",
-            "username": "ccliment",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "ccliment@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "aa018392-b223-46a4-89be-3a0b79dfeb29",
-            "name": "VREICHERT",
-            "username": "vreichert",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "vreichert@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "d0f68d24-146c-46a7-ba62-003877ca8caf",
-            "name": "STAPIA",
+            "id": "5bd192ad-1158-4605-9d90-6b0cf0911d66",
+            "name": "Stapia",
             "username": "stapia",
             "password": "tacam123",
             "role": "Abogada",
             "email": "stapia@tacam.cl",
             "phone": "",
             "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1591,89 +3683,15 @@
             ]
         },
         {
-            "id": "a458f5ba-333c-4dd3-a228-fee0e07aa031",
-            "name": "DARACENA",
-            "username": "daracena",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "daracena@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "263c292c-26a0-4a6b-b595-9dd00c940c3c",
-            "name": "ADMINISTRACION",
-            "username": "administracion",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "administracion@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "4b213879-5a48-470b-9cb5-a945aa42eb22",
-            "name": "ESTUDIOJURIDICO",
-            "username": "estudiojuridico",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "estudiojuridico@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "0ab6302d-84c1-41d8-9937-9cedf0910b2e",
-            "name": "ASISTENTE",
-            "username": "asistente",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "asistente@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "d8d67d64-7d99-4fca-a02d-137e3f14a1e6",
-            "name": "CCLIMENT",
-            "username": "ccliment",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "ccliment@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "c19ba2e6-cc84-4ad9-9007-4e253dd655f6",
-            "name": "VREICHERT",
+            "id": "f15ef742-0077-43a6-9cd9-b4188b2457b7",
+            "name": "Vreichert",
             "username": "vreichert",
             "password": "tacam123",
             "role": "Abogada",
             "email": "vreichert@tacam.cl",
             "phone": "",
             "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1681,89 +3699,15 @@
             ]
         },
         {
-            "id": "ecaf6502-5e72-4a2e-8c96-305f21b78404",
-            "name": "STAPIA",
-            "username": "stapia",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "stapia@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "27de94ba-7af4-462c-a339-9717505f0f36",
-            "name": "DARACENA",
-            "username": "daracena",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "daracena@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "171f5045-d07e-41b5-b99e-1d02160a05df",
-            "name": "ADMINISTRACION",
-            "username": "administracion",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "administracion@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "805cb8ed-bbbf-4c6c-a9cc-e53f9cfab9c1",
-            "name": "ESTUDIOJURIDICO",
-            "username": "estudiojuridico",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "estudiojuridico@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "c1028a42-755c-4a89-a76d-81373c59b68e",
-            "name": "ASISTENTE",
-            "username": "asistente",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "asistente@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "9c4ff05f-ac8b-4ee4-a3cb-4ac5b3b4d5eb",
-            "name": "CCLIMENT",
+            "id": "57e494d1-68c4-490b-8a52-55f37898ae44",
+            "name": "Ccliment",
             "username": "ccliment",
             "password": "tacam123",
             "role": "Abogada",
             "email": "ccliment@tacam.cl",
             "phone": "",
             "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1771,14 +3715,15 @@
             ]
         },
         {
-            "id": "511cbb4b-38c0-4867-a734-31068ca32d6b",
-            "name": "VREICHERT",
-            "username": "vreichert",
+            "id": "8be4e4a3-a7c4-47ea-b1ff-5aed42fad663",
+            "name": "Kserrano",
+            "username": "kserrano",
             "password": "tacam123",
             "role": "Abogada",
-            "email": "vreichert@tacam.cl",
+            "email": "kserrano@tacam.cl",
             "phone": "",
             "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1786,29 +3731,15 @@
             ]
         },
         {
-            "id": "b7e3a465-cfa6-44e4-8f1d-d81b71f518d6",
-            "name": "STAPIA",
-            "username": "stapia",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "stapia@tacam.cl",
-            "phone": "",
-            "specialty": "",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "08dd4829-4de8-499b-9da4-01f653083fc9",
-            "name": "DARACENA",
+            "id": "0b77822e-814e-45d8-a93e-a9caf721bfe1",
+            "name": "Daracena",
             "username": "daracena",
             "password": "tacam123",
             "role": "Abogada",
             "email": "daracena@tacam.cl",
             "phone": "",
             "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1816,25 +3747,32 @@
             ]
         },
         {
-            "id": "3c204329-affb-4b41-a8fd-f2d0cdf75f66",
-            "name": "DARACENA",
-            "username": "daracena",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "daracena@tacam.cl",
+            "id": "083d3046-cbe9-4ead-9c45-1d1d0cc30099",
+            "name": "Administrador TACAM",
+            "username": "admin",
+            "password": "admin",
+            "role": "Admin",
+            "email": "admin@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
+                "Reservas",
+                "Agenda",
+                "Abogadas",
+                "Estadísticas"
             ]
         },
         {
-            "id": "b11e796f-a67d-425f-8ca0-ab877a08a9f4",
-            "name": "STAPIA",
+            "id": "7547f1bf-8d73-4bba-b57b-2738b16e007e",
+            "name": "Stapia",
             "username": "stapia",
             "password": "tacam123",
             "role": "Abogada",
             "email": "stapia@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1842,12 +3780,15 @@
             ]
         },
         {
-            "id": "3e4e9379-eb66-4b93-9d4f-31a45685ea84",
-            "name": "VREICHERT",
+            "id": "170a77a1-1b5b-4ed2-b34e-c6f070d4204d",
+            "name": "Vreichert",
             "username": "vreichert",
             "password": "tacam123",
             "role": "Abogada",
             "email": "vreichert@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1855,12 +3796,15 @@
             ]
         },
         {
-            "id": "fbc5b8c8-6b70-4df5-bfca-f498f89c65bc",
-            "name": "CCLIMENT",
+            "id": "88419360-2683-4f44-a69a-fa0ee8c0c98d",
+            "name": "Ccliment",
             "username": "ccliment",
             "password": "tacam123",
             "role": "Abogada",
             "email": "ccliment@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1868,12 +3812,15 @@
             ]
         },
         {
-            "id": "c0bc1ca7-8c83-4bf8-b7d2-4450af527262",
-            "name": "KSERRANOKSERRANO",
-            "username": "kserranokserrano",
+            "id": "1d9512da-8552-40f3-8ede-7032d3b159e7",
+            "name": "Kserrano",
+            "username": "kserrano",
             "password": "tacam123",
             "role": "Abogada",
-            "email": "kserranokserrano@tacam.cl",
+            "email": "kserrano@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1881,12 +3828,15 @@
             ]
         },
         {
-            "id": "9f8ebab3-7ef5-4aa8-81f7-2dc1d84324fe",
-            "name": "DARACENA",
+            "id": "c73c1be4-1d60-4a75-b172-b607aa206732",
+            "name": "Daracena",
             "username": "daracena",
             "password": "tacam123",
             "role": "Abogada",
             "email": "daracena@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1894,12 +3844,32 @@
             ]
         },
         {
-            "id": "c565d88c-bde6-4483-8e95-51c6bba9e29c",
-            "name": "STAPIA",
+            "id": "e1a7eed3-5ab9-480d-a1c9-66d0bc051754",
+            "name": "Administrador TACAM",
+            "username": "admin",
+            "password": "admin",
+            "role": "Admin",
+            "email": "admin@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
+            "permissions": [
+                "Reservas",
+                "Agenda",
+                "Abogadas",
+                "Estadísticas"
+            ]
+        },
+        {
+            "id": "2c464d2b-3795-47eb-a4bd-a17e31eeedd4",
+            "name": "Stapia",
             "username": "stapia",
             "password": "tacam123",
             "role": "Abogada",
             "email": "stapia@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1907,12 +3877,15 @@
             ]
         },
         {
-            "id": "8247f43e-5c0b-4622-a75f-759446ff6389",
-            "name": "VREICHERT",
+            "id": "90c09b62-756e-4448-9b71-3399a7a7ad44",
+            "name": "Vreichert",
             "username": "vreichert",
             "password": "tacam123",
             "role": "Abogada",
             "email": "vreichert@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1920,12 +3893,15 @@
             ]
         },
         {
-            "id": "78617d0d-ac43-4989-a3ab-0f5a91dc099b",
-            "name": "CCLIMENT",
+            "id": "3dd0b760-9c80-4110-ac73-36fd19631d2b",
+            "name": "Ccliment",
             "username": "ccliment",
             "password": "tacam123",
             "role": "Abogada",
             "email": "ccliment@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1933,12 +3909,15 @@
             ]
         },
         {
-            "id": "2df3be74-6fec-4fdf-a942-6a67141df687",
-            "name": "KSERRANOKSERRANO",
-            "username": "kserranokserrano",
+            "id": "19e9a868-ed44-4840-9f01-e366704559e3",
+            "name": "Kserrano",
+            "username": "kserrano",
             "password": "tacam123",
             "role": "Abogada",
-            "email": "kserranokserrano@tacam.cl",
+            "email": "kserrano@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1946,12 +3925,15 @@
             ]
         },
         {
-            "id": "56a792a3-3fd3-4d26-a6e0-1860d4baa2d7",
-            "name": "DARACENA",
+            "id": "48562a6b-4aff-4111-a59f-8daebac4fd4e",
+            "name": "Daracena",
             "username": "daracena",
             "password": "tacam123",
             "role": "Abogada",
             "email": "daracena@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1959,12 +3941,32 @@
             ]
         },
         {
-            "id": "d72d7570-2ff3-46fe-9fb6-5cae6990a5ff",
-            "name": "STAPIA",
+            "id": "dc5bfad6-cdbc-4739-be70-ff21f53bfeba",
+            "name": "Administrador TACAM",
+            "username": "admin",
+            "password": "admin",
+            "role": "Admin",
+            "email": "admin@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
+            "permissions": [
+                "Reservas",
+                "Agenda",
+                "Abogadas",
+                "Estadísticas"
+            ]
+        },
+        {
+            "id": "918345c3-ee30-4ace-92a3-bee8620e56ad",
+            "name": "Stapia",
             "username": "stapia",
             "password": "tacam123",
             "role": "Abogada",
             "email": "stapia@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1972,12 +3974,15 @@
             ]
         },
         {
-            "id": "e6dfb3de-4f23-4a42-be12-c214465e29f1",
-            "name": "VREICHERT",
+            "id": "487f20d8-b5b5-4b30-95af-a22584d7172e",
+            "name": "Vreichert",
             "username": "vreichert",
             "password": "tacam123",
             "role": "Abogada",
             "email": "vreichert@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1985,12 +3990,15 @@
             ]
         },
         {
-            "id": "c40122e1-877b-48f3-bdbd-97c0387543ba",
-            "name": "CCLIMENT",
+            "id": "db1e7c17-4532-48eb-a5e3-9cea2168fd17",
+            "name": "Ccliment",
             "username": "ccliment",
             "password": "tacam123",
             "role": "Abogada",
             "email": "ccliment@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -1998,12 +4006,15 @@
             ]
         },
         {
-            "id": "c3b3c0f1-3f00-41a9-8e7a-65a8e7b9fc5e",
-            "name": "KSERRANOKSERRANO",
-            "username": "kserranokserrano",
+            "id": "904a1dec-523c-4c03-9c52-2d44026b0ea9",
+            "name": "Kserrano",
+            "username": "kserrano",
             "password": "tacam123",
             "role": "Abogada",
-            "email": "kserranokserrano@tacam.cl",
+            "email": "kserrano@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -2011,12 +4022,15 @@
             ]
         },
         {
-            "id": "eb72654a-653f-4290-9607-85caf5ce44e0",
-            "name": "DARACENA",
+            "id": "ca7ca43b-ed7b-4005-bd78-fbd4c3cf24eb",
+            "name": "Daracena",
             "username": "daracena",
             "password": "tacam123",
             "role": "Abogada",
             "email": "daracena@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -2024,64 +4038,51 @@
             ]
         },
         {
-            "id": "aa77e17f-0840-4ce8-873e-ae239176dce8",
-            "name": "STAPIA",
-            "username": "stapia",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "stapia@tacam.cl",
+            "id": "3e2fe10d-f845-4720-b476-5007e4653584",
+            "name": "Administrador TACAM",
+            "username": "admin",
+            "password": "admin",
+            "role": "Admin",
+            "email": "admin@tacam.cl",
+            "phone": "",
+            "specialty": "",
+            "rut": "",
             "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
+                "Reservas",
+                "Agenda",
+                "Abogadas",
+                "Estadísticas"
             ]
         },
         {
-            "id": "a112ff5c-672e-455e-9f1c-dd50faa08087",
-            "name": "VREICHERT",
-            "username": "vreichert",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "vreichert@tacam.cl",
+            "id": "admin-001",
+            "name": "Administrador TACAM",
+            "username": "admin",
+            "password": "admin",
+            "role": "Admin",
+            "email": "",
+            "rut": "",
+            "phone": "",
+            "specialty": "",
+            "photo": "assets/logo-color.svg",
             "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
+                "Reservas",
+                "Agenda",
+                "Abogadas",
+                "Estadísticas"
             ]
         },
         {
-            "id": "8a7b2988-a800-435e-84a7-f2f4ad982c1e",
-            "name": "CCLIMENT",
-            "username": "ccliment",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "ccliment@tacam.cl",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "70daa21e-1d05-4096-a947-ee442165507e",
-            "name": "KSERRANOKSERRANO",
-            "username": "kserranokserrano",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "kserranokserrano@tacam.cl",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "5a0a436d-ee9c-4021-924f-9d86c46c9110",
-            "name": "DARACENA",
+            "id": "a55b2928-341e-4799-82be-a64b17c64bee",
+            "name": "DIANDRA ARACENA MORA",
             "username": "daracena",
             "password": "tacam123",
             "role": "Abogada",
             "email": "daracena@tacam.cl",
+            "rut": "15.981.484-K",
+            "phone": "",
+            "specialty": "Penal",
+            "photo": "assets/logo-color.svg",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -2089,12 +4090,16 @@
             ]
         },
         {
-            "id": "97f923d4-8854-42f9-b744-00721a1ea2c7",
-            "name": "STAPIA",
+            "id": "928765c6-ab8a-448f-991e-2583331acaab",
+            "name": "SARA BERNARDA TAPIA GONZÁLEZ",
             "username": "stapia",
             "password": "tacam123",
             "role": "Abogada",
             "email": "stapia@tacam.cl",
+            "rut": "12.836.725-K",
+            "phone": "",
+            "specialty": "Penal - Policía local - Familia",
+            "photo": "assets/logo-color.svg",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -2102,12 +4107,16 @@
             ]
         },
         {
-            "id": "bfd75b48-18c3-4ae9-ab46-79913dc33977",
-            "name": "VREICHERT",
+            "id": "64483aab-fc73-45c6-a35b-653de87f182e",
+            "name": "VALENTINA BELEN REICHERT GODOY",
             "username": "vreichert",
             "password": "tacam123",
             "role": "Abogada",
             "email": "vreichert@tacam.cl",
+            "rut": "20.135.049-2",
+            "phone": "",
+            "specialty": "Penal - Policía local",
+            "photo": "assets/logo-color.svg",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -2115,12 +4124,16 @@
             ]
         },
         {
-            "id": "cdac84cf-ba83-4352-83af-15cfbd0f0786",
-            "name": "CCLIMENT",
+            "id": "ada9f399-b1aa-469c-bbde-a4910eff4606",
+            "name": "CONSTANZA ROCÍO CLIMENT DEL RÍO",
             "username": "ccliment",
             "password": "tacam123",
             "role": "Abogada",
             "email": "ccliment@tacam.cl",
+            "rut": "16.380.148-5",
+            "phone": "",
+            "specialty": "Familia",
+            "photo": "assets/logo-color.svg",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -2128,77 +4141,16 @@
             ]
         },
         {
-            "id": "609389c1-9729-4f4c-ac92-9c688c49c320",
-            "name": "KSERRANOKSERRANO",
-            "username": "kserranokserrano",
+            "id": "c2da782c-09af-4ec9-a752-bd95810e37a7",
+            "name": "KATHERINE SERRANO MARREY",
+            "username": "kserrano",
             "password": "tacam123",
             "role": "Abogada",
-            "email": "kserranokserrano@tacam.cl",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "9dedf9d8-f008-4e5d-a7d3-0b0158bbea55",
-            "name": "DARACENA",
-            "username": "daracena",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "daracena@tacam.cl",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "2c17e26d-aa27-429a-a2d9-c995b8bcfcf6",
-            "name": "STAPIA",
-            "username": "stapia",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "stapia@tacam.cl",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "61df44eb-4688-44e9-a429-7d92a008149a",
-            "name": "VREICHERT",
-            "username": "vreichert",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "vreichert@tacam.cl",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "4566ee62-421d-4d09-b62b-4781bf82f2cf",
-            "name": "CCLIMENT",
-            "username": "ccliment",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "ccliment@tacam.cl",
-            "permissions": [
-                "Visitas",
-                "Imputados",
-                "Editar contactos"
-            ]
-        },
-        {
-            "id": "41f0c125-6121-476b-af3f-9715e5f06a9e",
-            "name": "KSERRANOKSERRANO",
-            "username": "kserranokserrano",
-            "password": "tacam123",
-            "role": "Abogada",
-            "email": "kserranokserrano@tacam.cl",
+            "email": "kserrano@tacam.cl",
+            "rut": "16.592.789-3",
+            "phone": "",
+            "specialty": "Penal - policía local",
+            "photo": "assets/logo-color.svg",
             "permissions": [
                 "Visitas",
                 "Imputados",
@@ -2218,5 +4170,5 @@
             ]
         }
     ],
-    "updatedAt": "2026-04-23T16:07:01+00:00"
+    "updatedAt": "2026-04-22T18:23:53+00:00"
 }

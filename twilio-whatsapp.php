@@ -38,10 +38,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     respond(405, false, 'method_not_allowed', 'Method not allowed');
 }
 
-$internalToken = trim((string)(getenv('APP_INTERNAL_TOKEN') ?: 'S1arkh8m'));
-$accountSid = trim((string)(getenv('TWILIO_ACCOUNT_SID') ?: 'ACc2b7e43d9a7bbde49f774104528bcfca'));
-$authToken = trim((string)(getenv('TWILIO_AUTH_TOKEN') ?: 'f961a3e056227a5bcf5a436072d2001c'));
-$fromWhatsApp = trim((string)(getenv('TWILIO_WHATSAPP_FROM') ?: 'whatsapp:+56987591312'));
+$internalToken = trim((string)(getenv('APP_INTERNAL_TOKEN') ?: ''));
+$accountSid = trim((string)(getenv('TWILIO_ACCOUNT_SID') ?: ''));
+$authToken = trim((string)(getenv('TWILIO_AUTH_TOKEN') ?: ''));
+$fromWhatsApp = trim((string)(getenv('TWILIO_WHATSAPP_FROM') ?: ''));
 
 $missingEnv = [];
 if ($internalToken === '') {

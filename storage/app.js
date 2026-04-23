@@ -693,12 +693,11 @@ function applyRoleAccess() {
   if (lawyerCalendarFilter) lawyerCalendarFilter.disabled = role === 'Abogada';
   if (sharedOnlyInput) sharedOnlyInput.disabled = role === 'Abogada';
   if (role === 'Abogada' && sessionLawyer) {
-    if (assignedToSelect) { assignedToSelect.value = sessionLawyer; assignedToSelect.disabled = true; }
-    if (prisonAssignedToSelect) { prisonAssignedToSelect.value = sessionLawyer; prisonAssignedToSelect.disabled = true; }
-    if (lawyerFilter) { lawyerFilter.value = sessionLawyer; lawyerFilter.disabled = true; }
-    if (prisonLawyerFilter) { prisonLawyerFilter.value = sessionLawyer; prisonLawyerFilter.disabled = true; }
-    if (lawyerCalendarFilter) { lawyerCalendarFilter.value = sessionLawyer; lawyerCalendarFilter.disabled = true; }
-    if (reportLawyerFilter) { reportLawyerFilter.value = sessionLawyer; reportLawyerFilter.disabled = true; }
+    if (assignedToSelect) { assignedToSelect.value = sessionLawyer; assignedToSelect.disabled = false; }
+    if (prisonAssignedToSelect) { prisonAssignedToSelect.value = sessionLawyer; prisonAssignedToSelect.disabled = false; }
+    if (lawyerFilter) lawyerFilter.value = sessionLawyer;
+    if (lawyerCalendarFilter) lawyerCalendarFilter.value = sessionLawyer;
+    if (reportLawyerFilter) reportLawyerFilter.value = sessionLawyer;
   }
 }
 
@@ -1039,8 +1038,7 @@ function buildEmailTemplateData(booking, extra = {}) {
 
 async function notifyBookingChannels(booking, message, emailSubject, emailOptions = {}, channelOptions = {}) {
   if (!hasNotificationConsent(booking)) return false;
-  // Always notify both client and lawyer for changes/confirmations unless explicitly requested otherwise
-  const onlyLawyer = channelOptions.onlyLawyer === true;
+  const onlyLawyer = channelOptions.onlyLawyer === undefined ? isPrisonVisit(booking) : Boolean(channelOptions.onlyLawyer);
   const lawyerPhone = getLawyerPhone(booking.assignedTo);
   const lawyerEmail = getLawyerEmail(booking.assignedTo);
   const clientPhone = cleanPhone(booking.phone);
@@ -1154,11 +1152,7 @@ function moveBookingDate(bookingId, suggestedDate) {
   if (!booking) return;
   const nextData = promptRescheduleData(booking, suggestedDate);
   if (!nextData) return;
-  const clash = checkBookingClash(nextData, bookingId);
-  if (clash) {
-    showToast(clash);
-    return;
-  }
+  if (booking.date === nextData.date && booking.time === nextData.time) return;
 
   const oldDate = booking.date;
   const oldTime = booking.time;
@@ -1172,28 +1166,6 @@ function moveBookingDate(bookingId, suggestedDate) {
   showToast('Cita reprogramada correctamente.');
 }
 
-function checkBookingClash(newData, excludeId = null) {
-  const bookings = getBookings();
-  const date = String(newData.date || '').trim();
-  const time = String(newData.time || '').trim().slice(0, 5);
-  const assignedTo = String(newData.assignedTo || '').trim();
-
-  if (!date || !time || !assignedTo) return null;
-
-  const clash = bookings.find(b =>
-    b.id !== excludeId &&
-    b.date === date &&
-    b.time === time &&
-    (b.assignedTo || '').trim() === assignedTo &&
-    b.status !== 'cancelada'
-  );
-
-  if (clash) {
-    return `Conflicto: ${assignedTo} ya tiene una cita el ${date} a las ${time} (${clash.customer}).`;
-  }
-  return null;
-}
-
 function updateBooking(bookingId, updater) {
   const bookings = getBookings();
   const booking = bookings.find(item => item.id === bookingId);
@@ -1204,22 +1176,6 @@ function updateBooking(bookingId, updater) {
     time: booking.time
   };
   updater(booking);
-
-  const clash = checkBookingClash({
-    date: booking.date,
-    time: booking.time,
-    assignedTo: booking.assignedTo
-  }, bookingId);
-
-  if (clash) {
-    showToast(clash);
-    // Revert changes if clash detected
-    booking.status = previous.status;
-    booking.date = previous.date;
-    booking.time = previous.time;
-    return;
-  }
-
   saveBookings(bookings);
   playSaveChime();
   renderAll();
@@ -2962,16 +2918,9 @@ function renderPrisonVisitsList() {
   const role = getCurrentSessionRole();
   const sessionLawyer = getCurrentSessionLawyerName();
   const filterValue = String(prisonLawyerFilter.value || '').trim();
-  const visits = getFilteredPrisonVisitsForReport().filter(booking => {
-    if (role === 'Abogada' && sessionLawyer) {
-      return (booking.assignedTo || '').trim() === sessionLawyer;
-    }
-    return !filterValue || booking.assignedTo === filterValue;
-  });
+  const visits = getFilteredPrisonVisitsForReport().filter(booking => !filterValue || booking.assignedTo === filterValue);
 
-  if (prisonVisitedSection) {
-    prisonVisitedSection.hidden = role !== 'Abogada' && role !== 'Admin';
-  }
+  if (prisonVisitedSection) prisonVisitedSection.hidden = false;
   renderGendarmeriaVisitOptions();
   renderPrisonTomorrowReadonlyList();
   prisonVisitsBody.replaceChildren();
@@ -3468,20 +3417,6 @@ bookingForm.addEventListener('submit', async event => {
   }
   bookingRepresentativeNameInput.setCustomValidity('');
 
-  const bookingDate = String(data.get('date') || '').trim();
-  const bookingTime = String(data.get('time') || '').trim().slice(0, 5);
-
-  const clash = checkBookingClash({
-    date: bookingDate,
-    time: bookingTime,
-    assignedTo: hiredLawyer ? assignedTo : ''
-  });
-
-  if (clash) {
-    showToast(clash);
-    return;
-  }
-
   const bookings = getBookings();
   bookings.unshift({
     id: crypto.randomUUID(),
@@ -3551,20 +3486,6 @@ prisonBookingForm.addEventListener('submit', async event => {
     client.imputadoModule = prisonModule;
     client.updatedAt = new Date().toISOString();
     saveClients(clients);
-  }
-
-  const bookingDate = String(data.get('date') || '').trim();
-  const bookingTime = String(data.get('time') || '').trim().slice(0, 5);
-
-  const clash = checkBookingClash({
-    date: bookingDate,
-    time: bookingTime,
-    assignedTo
-  });
-
-  if (clash) {
-    showToast(clash);
-    return;
   }
 
   const bookings = getBookings();

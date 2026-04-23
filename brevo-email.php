@@ -331,9 +331,9 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     respond(405, false, 'Method not allowed');
 }
 
-$apiKey = trim((string)(getenv('BREVO_API_KEY') ?: ''));
-$senderEmail = trim((string)(getenv('BREVO_SENDER_EMAIL') ?: 'tacam@agenciayousay.cl'));
-$senderName = trim((string)(getenv('BREVO_SENDER_NAME') ?: 'tacam'));
+$apiKey = trim((string)(getenv('BREVO_API_KEY') ?: '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'));
+$senderEmail = trim((string)(getenv('BREVO_SENDER_EMAIL') ?: 'noresponder@tacam.cl'));
+$senderName = trim((string)(getenv('BREVO_SENDER_NAME') ?: 'Tacam'));
 $replyToEmail = trim((string)(getenv('BREVO_REPLY_TO_EMAIL') ?: ''));
 $replyToName = trim((string)(getenv('BREVO_REPLY_TO_NAME') ?: $senderName));
 

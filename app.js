@@ -603,24 +603,15 @@ function isAllowedManagedUsername(value) {
 }
 
 function buildFixedProfiles(existingProfiles = []) {
-  const normalized = (Array.isArray(existingProfiles) ? existingProfiles : [])
-    .filter(profile => isAllowedManagedUsername(profile?.username));
-  const hasExisting = normalized.length > 0;
-  const defsToApply = hasExisting
-    ? FIXED_USER_PROFILES.filter(def =>
-      def.username === 'admin'
-      || normalized.some(profile => String(profile.username || '').trim().toLowerCase() === def.username.toLowerCase())
-    )
-    : FIXED_USER_PROFILES;
-
-  return defsToApply.map(def => {
+  const normalized = Array.isArray(existingProfiles) ? existingProfiles : [];
+  return FIXED_USER_PROFILES.map(def => {
     const existing = normalized.find(profile => String(profile.username || '').trim().toLowerCase() === def.username.toLowerCase()) || null;
     const email = def.role === 'Abogada'
       ? `${def.username}@tacam.cl`
       : String(existing?.email || `${def.username}@tacam.cl`).trim().toLowerCase();
     return {
       id: existing?.id || crypto.randomUUID(),
-      name: String(existing?.name || def.name).trim(),
+      name: def.name,
       username: def.username,
       password: def.role === 'Admin' ? 'admin' : 'tacam123',
       role: def.role,
@@ -708,6 +699,27 @@ function applyRoleAccess() {
     if (lawyerCalendarFilter) lawyerCalendarFilter.value = sessionLawyer;
     if (reportLawyerFilter) reportLawyerFilter.value = sessionLawyer;
   }
+
+  // --- CONTROL DE VISIBILIDAD PARA ABOGADAS ---
+  const profileForm = document.getElementById('profile-form');
+  const profileList = document.getElementById('profile-list');
+  const profileTitle = document.querySelector('[data-module-panel="lawyers"] h3:nth-of-type(2)');
+
+  if (role === 'Abogada') {
+    // Oculta la sección de "Contactos visitados" (Historial/Tiempos) para abogadas
+    if (prisonVisitedSection) prisonVisitedSection.style.display = 'none';
+    // Ocultamos solo la gestión de permisos/perfiles
+    if (profileForm) profileForm.style.display = 'none';
+    if (profileList) profileList.style.display = 'none';
+    if (profileTitle) profileTitle.style.display = 'none';
+  } else {
+    // El administrador ve todo
+    if (prisonVisitedSection) prisonVisitedSection.style.display = 'block';
+    if (profileForm) profileForm.style.display = 'grid';
+    if (profileList) profileList.style.display = 'block';
+    if (profileTitle) profileTitle.style.display = 'block';
+  }
+  // --------------------------------------------
 }
 
 function getVisibleClientsForSession() {
@@ -1046,7 +1058,7 @@ function buildEmailTemplateData(booking, extra = {}) {
 }
 
 async function notifyBookingChannels(booking, message, emailSubject, emailOptions = {}, channelOptions = {}) {
-  if (!hasNotificationConsent(booking)) return false;
+  if (!channelOptions.ignoreConsent && !hasNotificationConsent(booking)) return false;
   const onlyLawyer = channelOptions.onlyLawyer === undefined ? isPrisonVisit(booking) : Boolean(channelOptions.onlyLawyer);
   const lawyerPhone = getLawyerPhone(booking.assignedTo);
   const lawyerEmail = getLawyerEmail(booking.assignedTo);
@@ -1093,7 +1105,7 @@ async function notifyReschedule(booking, fromData, toData) {
   return notifyBookingChannels(booking, message, 'Reagendamiento de cita TACAM', {
     templateType: 'reschedule',
     templateData: buildEmailTemplateData(booking, { fecha: toData?.date, hora: toData?.time })
-  });
+  }, { ignoreConsent: true });
 }
 
 async function notifyUpcomingAppointments() {
@@ -1155,166 +1167,20 @@ function promptRescheduleData(booking, suggestedDate) {
   return { date: dateValue, time: timeValue };
 }
 
-function promptPrisonVisitLawyerSelection(currentLawyer = '') {
-  return new Promise(resolve => {
-    const names = getLawyerNames();
-    const safeCurrentLawyer = String(currentLawyer || '').trim();
-    if (!names.length) {
-      resolve(safeCurrentLawyer);
-      return;
-    }
-
-    const overlay = document.createElement('div');
-    overlay.style.position = 'fixed';
-    overlay.style.inset = '0';
-    overlay.style.background = 'rgba(15, 23, 42, 0.55)';
-    overlay.style.display = 'flex';
-    overlay.style.alignItems = 'center';
-    overlay.style.justifyContent = 'center';
-    overlay.style.zIndex = '99999';
-    overlay.style.padding = '20px';
-
-    const panel = document.createElement('div');
-    panel.style.width = '100%';
-    panel.style.maxWidth = '460px';
-    panel.style.background = '#ffffff';
-    panel.style.borderRadius = '16px';
-    panel.style.boxShadow = '0 18px 48px rgba(15, 23, 42, 0.22)';
-    panel.style.padding = '20px';
-    panel.style.display = 'grid';
-    panel.style.gap = '12px';
-
-    const title = document.createElement('h3');
-    title.textContent = 'Abogada para la visita';
-    title.style.margin = '0';
-    title.style.fontSize = '20px';
-
-    const text = document.createElement('p');
-    text.textContent = 'Selecciona la abogada que tomará la visita. Puedes mantener la actual o cambiarla.';
-    text.style.margin = '0';
-    text.style.color = '#475569';
-    text.style.fontSize = '14px';
-    text.style.lineHeight = '1.5';
-
-    const current = document.createElement('div');
-    current.textContent = `Actual: ${safeCurrentLawyer || 'Sin abogada asignada'}`;
-    current.style.fontSize = '13px';
-    current.style.color = '#0f172a';
-    current.style.fontWeight = '600';
-
-    const select = document.createElement('select');
-    select.style.width = '100%';
-    select.style.padding = '12px';
-    select.style.borderRadius = '12px';
-    select.style.border = '1px solid #cbd5e1';
-    select.style.fontSize = '15px';
-    select.style.background = '#fff';
-
-    const first = document.createElement('option');
-    first.value = '';
-    first.textContent = 'Sin abogada';
-    select.appendChild(first);
-
-    names.forEach(name => {
-      const option = document.createElement('option');
-      option.value = name;
-      option.textContent = name;
-      select.appendChild(option);
-    });
-
-    if (safeCurrentLawyer && names.includes(safeCurrentLawyer)) {
-      select.value = safeCurrentLawyer;
-    }
-
-    const actions = document.createElement('div');
-    actions.style.display = 'flex';
-    actions.style.justifyContent = 'flex-end';
-    actions.style.gap = '10px';
-
-    const cancelBtn = document.createElement('button');
-    cancelBtn.type = 'button';
-    cancelBtn.textContent = 'Cancelar';
-    cancelBtn.style.padding = '10px 14px';
-    cancelBtn.style.borderRadius = '10px';
-    cancelBtn.style.border = '1px solid #cbd5e1';
-    cancelBtn.style.background = '#fff';
-    cancelBtn.style.cursor = 'pointer';
-
-    const saveBtn = document.createElement('button');
-    saveBtn.type = 'button';
-    saveBtn.textContent = 'Guardar';
-    saveBtn.style.padding = '10px 14px';
-    saveBtn.style.borderRadius = '10px';
-    saveBtn.style.border = 'none';
-    saveBtn.style.background = '#8f203a';
-    saveBtn.style.color = '#fff';
-    saveBtn.style.cursor = 'pointer';
-
-    const cleanup = value => {
-      overlay.remove();
-      resolve(value);
-    };
-
-    cancelBtn.addEventListener('click', () => cleanup(null));
-    saveBtn.addEventListener('click', () => cleanup(String(select.value || '').trim()));
-    overlay.addEventListener('click', event => {
-      if (event.target === overlay) cleanup(null);
-    });
-    document.addEventListener('keydown', function handleKey(event) {
-      if (!document.body.contains(overlay)) {
-        document.removeEventListener('keydown', handleKey);
-        return;
-      }
-      if (event.key === 'Escape') {
-        document.removeEventListener('keydown', handleKey);
-        cleanup(null);
-      }
-    });
-
-    actions.appendChild(cancelBtn);
-    actions.appendChild(saveBtn);
-    panel.appendChild(title);
-    panel.appendChild(text);
-    panel.appendChild(current);
-    panel.appendChild(select);
-    panel.appendChild(actions);
-    overlay.appendChild(panel);
-    document.body.appendChild(overlay);
-    select.focus();
-  });
-}
-
-async function moveBookingDate(bookingId, suggestedDate) {
+function moveBookingDate(bookingId, suggestedDate) {
   const bookings = getBookings();
   const booking = bookings.find(item => item.id === bookingId);
   if (!booking) return;
-
   const nextData = promptRescheduleData(booking, suggestedDate);
   if (!nextData) return;
-
-  let nextAssignedTo = String(booking.assignedTo || '').trim();
-  if (isPrisonVisit(booking)) {
-    const selectedLawyer = await promptPrisonVisitLawyerSelection(nextAssignedTo);
-    if (selectedLawyer === null) return;
-    nextAssignedTo = String(selectedLawyer || '').trim();
-  }
-
-  if (
-    booking.date === nextData.date &&
-    booking.time === nextData.time &&
-    String(booking.assignedTo || '').trim() === nextAssignedTo
-  ) return;
+  if (booking.date === nextData.date && booking.time === nextData.time) return;
 
   const oldDate = booking.date;
   const oldTime = booking.time;
   booking.date = nextData.date;
   booking.time = nextData.time;
-  if (isPrisonVisit(booking)) {
-    booking.assignedTo = nextAssignedTo;
-  }
   booking.reminder24hSentAt = '';
   booking.reminder1hSentAt = '';
-  booking.updatedAt = new Date().toISOString();
   saveBookings(bookings);
   renderAll();
   void notifyReschedule(booking, { date: oldDate, time: oldTime }, { date: nextData.date, time: nextData.time });
@@ -1331,7 +1197,6 @@ function updateBooking(bookingId, updater) {
     time: booking.time
   };
   updater(booking);
-  booking.updatedAt = new Date().toISOString();
   saveBookings(bookings);
   playSaveChime();
   renderAll();
@@ -2032,7 +1897,9 @@ function renderCalendar(container, bookings, selectedMonth) {
         event.preventDefault();
         dayCell.classList.remove('drag-over');
         const bookingId = event.dataTransfer?.getData('text/booking-id');
-        if (bookingId) moveBookingDate(bookingId, dateKey);
+        if (bookingId) {
+          setTimeout(() => moveBookingDate(bookingId, dateKey), 0);
+        }
       });
 
       const dayBookings = bookingsByDate.get(dateKey) || [];
@@ -2550,27 +2417,27 @@ function renderBookings() {
     hiredBookings.forEach(booking => {
       const row = document.createElement('tr');
 
-    appendCell(row, fmtDate(booking.createdAt));
-    appendCell(row, booking.customer || '');
-    appendCell(row, normalizeMatterLabel(booking.matter) || 'General');
-    appendCell(row, booking.phone || '');
-    appendCell(row, formatAppointment(booking));
-    appendCell(row, booking.assignedTo || 'Sin abogada');
+      appendCell(row, fmtDate(booking.createdAt));
+      appendCell(row, booking.customer || '');
+      appendCell(row, normalizeMatterLabel(booking.matter) || 'General');
+      appendCell(row, booking.phone || '');
+      appendCell(row, formatAppointment(booking));
+      appendCell(row, booking.assignedTo || 'Sin abogada');
 
-    const statusCell = document.createElement('td');
-    const statusBadge = document.createElement('span');
-    statusBadge.className = `badge ${booking.status}`;
-    statusBadge.textContent = statusLabel(booking.status);
-    statusCell.appendChild(statusBadge);
-    row.appendChild(statusCell);
+      const statusCell = document.createElement('td');
+      const statusBadge = document.createElement('span');
+      statusBadge.className = `badge ${booking.status}`;
+      statusBadge.textContent = statusLabel(booking.status);
+      statusCell.appendChild(statusBadge);
+      row.appendChild(statusCell);
 
-    const actionCell = document.createElement('td');
-    const toLeadBtn = document.createElement('button');
-    toLeadBtn.className = 'switch-btn';
-    toLeadBtn.dataset.toLeadBtn = booking.id;
-    toLeadBtn.textContent = 'Pasar a no contratado';
-    actionCell.appendChild(toLeadBtn);
-    row.appendChild(actionCell);
+      const actionCell = document.createElement('td');
+      const toLeadBtn = document.createElement('button');
+      toLeadBtn.className = 'switch-btn';
+      toLeadBtn.dataset.toLeadBtn = booking.id;
+      toLeadBtn.textContent = 'Pasar a no contratado';
+      actionCell.appendChild(toLeadBtn);
+      row.appendChild(actionCell);
 
       hiredBody.appendChild(row);
     });
@@ -2807,8 +2674,8 @@ function renderPrisonTomorrowReadonlyList() {
   });
 }
 
-function getTomorrowPrisonVisitsForGendarmeria() {
-  return getTomorrowPrisonVisits('');
+function getTomorrowPrisonVisitsForGendarmeria(filterValue = '') {
+  return getTomorrowPrisonVisits(filterValue);
 }
 
 function buildGendarmeriaListMessage(visits) {
@@ -2824,18 +2691,16 @@ function buildGendarmeriaListMessage(visits) {
 
 function getSenderLawyerIdentity() {
   const sessionName = String(getCurrentSessionLawyerName() || '').trim();
-  const sessionUsername = String(getSession()?.username || '').trim().toLowerCase();
-  const profile = getProfiles().find(item => String(item.username || '').trim().toLowerCase() === sessionUsername) || null;
-  const lawyer = getLawyers().find(item => (item.name || '').trim() === sessionName)
-    || getLawyers().find(item => String(item.email || '').trim().toLowerCase() === String(profile?.email || '').trim().toLowerCase());
+  if (!sessionName) return { name: '', rut: '' };
+  const lawyer = getLawyers().find(item => (item.name || '').trim() === sessionName);
   return {
-    name: sessionName || String(profile?.name || '').trim(),
-    rut: String(lawyer?.rut || profile?.rut || '').trim()
+    name: sessionName,
+    rut: String(lawyer?.rut || '').trim()
   };
 }
 
 function buildGendarmeriaTemplateData(visits, senderLawyer = {}) {
-  const safeVisits = Array.isArray(visits) ? visits : [];
+  const safeVisits = Array.isArray(visits) ? visits.slice(0, 6) : [];
   const folioBase = Date.now().toString().slice(-8);
   const senderName = String(senderLawyer?.name || '').trim();
   const senderRut = String(senderLawyer?.rut || '').trim();
@@ -2896,33 +2761,33 @@ function buildGendarmeriaPreviewHtml(visits, subject, recipients) {
   }).join('');
 
   return `<!doctype html><html lang="es"><head><meta charset="utf-8" /><title>Previsualización correo Gendarmería</title><style>
-  :root{--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--tacam-red:#b91c1c;--tacam-red-dark:#7f1d1d;--celeste:#e0f2fe;--celeste-border:#7dd3fc;--celeste-ink:#075985;--bg:#f6f7fb;--card:#ffffff;}
-  *{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;-webkit-font-smoothing:antialiased;}
-  .page{max-width:880px;margin:24px auto;background:var(--card);border-radius:18px;box-shadow:0 20px 60px -25px rgba(15,23,42,.25);overflow:hidden;}
-  .header-red{background:linear-gradient(135deg,var(--tacam-red),var(--tacam-red-dark));padding:28px 56px;display:flex;justify-content:space-between;align-items:center;color:#fff;}
-  .header-red .logo-img{height:64px;width:auto;display:block;}.meta{text-align:right;font-size:13px;color:rgba(255,255,255,.85)} .meta strong{display:block;color:#fff;font-size:14px;margin-bottom:2px}
-  .content{padding:36px 56px 48px}.badge{display:inline-block;background:#fee2e2;color:var(--tacam-red);padding:4px 12px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px}
-  .title{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--tacam-red);margin:0 0 8px;font-weight:700;} .subtitle{font-size:24px;font-weight:700;margin:0 0 22px;line-height:1.25;color:var(--ink)}
-  .info-line{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;background:var(--celeste);border:1px solid var(--celeste-border);border-left:5px solid var(--celeste-ink);border-radius:10px;padding:14px 20px;margin-bottom:24px;}
-  .info-line div{font-size:13px;flex:1;min-width:140px}.info-line span{display:block;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:var(--celeste-ink);font-weight:700;margin-bottom:2px}
-  .body-text{font-size:14px;line-height:1.65;color:#334155;margin:0 0 24px}
-  table{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:32px;font-size:13px;}
-  thead th{background:var(--tacam-red);color:#fff;text-align:left;padding:12px 14px;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:600}
-  tbody td{padding:16px 14px;border-top:1px solid var(--line);vertical-align:middle;height:64px;}tbody tr:nth-child(even) td{background:#fafbfc}
-  td.name{font-weight:600;color:var(--ink);width:26%}td.rut{color:#475569;width:18%;font-variant-numeric:tabular-nums}td.fill{color:transparent}
-  tr.empty td{height:64px}tr.gendarmeria td{background:#f1f5f9 !important;height:90px;font-weight:700;letter-spacing:2px;color:var(--tacam-red);font-size:12px;}
-  .controls{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap;margin-bottom:14px}.controls button{background:#b91c1c;color:#fff;border:0;border-radius:8px;padding:10px 14px;font-weight:600;cursor:pointer}.controls .secondary{background:#fff;color:#1f2937;border:1px solid #d1d5db}
-  .recipients{font-size:12px;color:#475569;margin-top:4px;margin-bottom:12px}
-  @media print{body{background:#fff}.page{box-shadow:none;margin:0;max-width:100%;border-radius:0}.controls{display:none}}
-  </style></head><body>
-  <div class="page"><div class="header-red"><div class="brand"><img src="https://tacam.cl/wp-content/uploads/2023/11/logo-tacam-1-registrad-blancoo_.png" alt="TACAM Estudio Jurídico" class="logo-img"/></div><div class="meta"><strong>estudiojuridico@tacam.cl</strong>${escapePreviewHtml(new Date().toLocaleString('es-CL'))}</div></div>
-  <div class="content"><div class="controls"><button type="button" onclick="window.print()">Descargar / Imprimir PDF</button><button type="button" class="secondary" onclick="window.close()">Cerrar</button></div>
-  <div class="recipients"><strong>Destinatarios:</strong> ${escapePreviewHtml(safeRecipients.join(', ') || 'Sin destinatarios')}</div>
-  <span class="badge">Entrevista Abogada</span><h2 class="title">Solicitud de visita presencial</h2><p class="subtitle">Antofagasta</p>
-  <div class="info-line"><div><span>Ciudad</span><strong>Antofagasta</strong></div><div><span>Fecha de visita</span><strong>${fechaVisita}</strong></div><div><span>Hora de entrevista</span><strong>${horaVisita} hrs</strong></div></div>
-  <p class="body-text"><b>De mi consideración:</b><br/>${paragraph}</p>
-  <table><thead><tr><th>Nombre</th><th>RUT</th><th>Módulo</th><th>Tiempo</th><th>Firma</th></tr></thead><tbody>${rows || '<tr class="empty"><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>'}<tr class="empty"><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr><tr class="empty"><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr><tr class="gendarmeria"><td>Gendarmería</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr></tbody></table>
-  </div></div></body></html>`;
+:root{--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--tacam-red:#b91c1c;--tacam-red-dark:#7f1d1d;--celeste:#e0f2fe;--celeste-border:#7dd3fc;--celeste-ink:#075985;--bg:#f6f7fb;--card:#ffffff;}
+*{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;-webkit-font-smoothing:antialiased;}
+.page{max-width:880px;margin:24px auto;background:var(--card);border-radius:18px;box-shadow:0 20px 60px -25px rgba(15,23,42,.25);overflow:hidden;}
+.header-red{background:linear-gradient(135deg,var(--tacam-red),var(--tacam-red-dark));padding:28px 56px;display:flex;justify-content:space-between;align-items:center;color:#fff;}
+.header-red .logo-img{height:64px;width:auto;display:block;}.meta{text-align:right;font-size:13px;color:rgba(255,255,255,.85)} .meta strong{display:block;color:#fff;font-size:14px;margin-bottom:2px}
+.content{padding:36px 56px 48px}.badge{display:inline-block;background:#fee2e2;color:var(--tacam-red);padding:4px 12px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px}
+.title{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--tacam-red);margin:0 0 8px;font-weight:700;} .subtitle{font-size:24px;font-weight:700;margin:0 0 22px;line-height:1.25;color:var(--ink)}
+.info-line{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;background:var(--celeste);border:1px solid var(--celeste-border);border-left:5px solid var(--celeste-ink);border-radius:10px;padding:14px 20px;margin-bottom:24px;}
+.info-line div{font-size:13px;flex:1;min-width:140px}.info-line span{display:block;font-size:10px;text-transform:uppercase;letter-spacing:1.5px;color:var(--celeste-ink);font-weight:700;margin-bottom:2px}
+.body-text{font-size:14px;line-height:1.65;color:#334155;margin:0 0 24px}
+table{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:32px;font-size:13px;}
+thead th{background:var(--tacam-red);color:#fff;text-align:left;padding:12px 14px;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:600}
+tbody td{padding:16px 14px;border-top:1px solid var(--line);vertical-align:middle;height:64px;}tbody tr:nth-child(even) td{background:#fafbfc}
+td.name{font-weight:600;color:var(--ink);width:26%}td.rut{color:#475569;width:18%;font-variant-numeric:tabular-nums}td.fill{color:transparent}
+tr.empty td{height:64px}tr.gendarmeria td{background:#f1f5f9 !important;height:90px;font-weight:700;letter-spacing:2px;color:var(--tacam-red);font-size:12px;}
+.controls{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap;margin-bottom:14px}.controls button{background:#b91c1c;color:#fff;border:0;border-radius:8px;padding:10px 14px;font-weight:600;cursor:pointer}.controls .secondary{background:#fff;color:#1f2937;border:1px solid #d1d5db}
+.recipients{font-size:12px;color:#475569;margin-top:4px;margin-bottom:12px}
+@media print{body{background:#fff}.page{box-shadow:none;margin:0;max-width:100%;border-radius:0}.controls{display:none}}
+</style></head><body>
+<div class="page"><div class="header-red"><div class="brand"><img src="https://tacam.cl/wp-content/uploads/2023/11/logo-tacam-1-registrad-blancoo_.png" alt="TACAM Estudio Jurídico" class="logo-img"/></div><div class="meta"><strong>estudiojuridico@tacam.cl</strong>${escapePreviewHtml(new Date().toLocaleString('es-CL'))}</div></div>
+<div class="content"><div class="controls"><button type="button" onclick="window.print()">Descargar / Imprimir PDF</button><button type="button" class="secondary" onclick="window.close()">Cerrar</button></div>
+<div class="recipients"><strong>Destinatarios:</strong> ${escapePreviewHtml(safeRecipients.join(', ') || 'Sin destinatarios')}</div>
+<span class="badge">Entrevista Abogada</span><h2 class="title">Solicitud de visita presencial</h2><p class="subtitle">Antofagasta</p>
+<div class="info-line"><div><span>Ciudad</span><strong>Antofagasta</strong></div><div><span>Fecha de visita</span><strong>${fechaVisita}</strong></div><div><span>Hora de entrevista</span><strong>${horaVisita} hrs</strong></div></div>
+<p class="body-text"><b>De mi consideración:</b><br/>${paragraph}</p>
+<table><thead><tr><th>Nombre</th><th>RUT</th><th>Módulo</th><th>Tiempo</th><th>Firma</th></tr></thead><tbody>${rows || '<tr class="empty"><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr>'}<tr class="empty"><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr><tr class="empty"><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr><tr class="gendarmeria"><td>Gendarmería</td><td class="fill"></td><td class="fill"></td><td class="fill"></td><td class="fill"></td></tr></tbody></table>
+</div></div></body></html>`;
 }
 
 function openGendarmeriaPreview(visits, subject, recipients) {
@@ -3007,36 +2872,46 @@ async function sendGendarmeriaRoster(visits, subject, options = {}) {
 }
 
 function renderGendarmeriaVisitOptions() {
-  const visits = getTomorrowPrisonVisitsForGendarmeria();
+  if (!gendarmeriaVisitSelect) return;
+  const filterValue = String(prisonLawyerFilter?.value || '').trim();
+  const visits = getTomorrowPrisonVisitsForGendarmeria(filterValue);
 
-  if (gendarmeriaVisitSelect) {
-    gendarmeriaVisitSelect.replaceChildren();
-    gendarmeriaVisitSelect.hidden = true;
-    gendarmeriaVisitSelect.style.display = 'none';
+  const previousValues = new Set(Array.from(gendarmeriaVisitSelect.selectedOptions || []).map(option => option.value));
+  gendarmeriaVisitSelect.replaceChildren();
+
+  visits.forEach(booking => {
+    const option = document.createElement('option');
+    option.value = booking.id;
+    const modulo = booking.prisonModule || booking.representative?.modulo || '-';
+    option.textContent = `${booking.date || '-'} ${booking.time || '--:--'} · ${booking.customer || 'Sin nombre'} · módulo ${modulo}`;
+    if (previousValues.has(booking.id)) option.selected = true;
+    gendarmeriaVisitSelect.appendChild(option);
+  });
+
+  if (!previousValues.size) {
+    Array.from(gendarmeriaVisitSelect.options).forEach(option => {
+      option.selected = true;
+    });
   }
 
-  renderGendarmeriaSelectedTickets(visits);
+  renderGendarmeriaSelectedTickets();
 }
 
-function renderGendarmeriaSelectedTickets(visits = null) {
-  if (!gendarmeriaSelectedTickets) return;
-
-  const safeVisits = Array.isArray(visits) ? visits : getTomorrowPrisonVisitsForGendarmeria();
+function renderGendarmeriaSelectedTickets() {
+  if (!gendarmeriaSelectedTickets || !gendarmeriaVisitSelect) return;
   gendarmeriaSelectedTickets.replaceChildren();
-
-  if (!safeVisits.length) {
+  const selected = Array.from(gendarmeriaVisitSelect.selectedOptions || []);
+  if (!selected.length) {
     const empty = document.createElement('span');
     empty.className = 'muted';
-    empty.textContent = 'No hay visitas a la cárcel programadas para mañana.';
+    empty.textContent = 'Sin presos seleccionados para envío.';
     gendarmeriaSelectedTickets.appendChild(empty);
     return;
   }
-
-  safeVisits.forEach(booking => {
+  selected.forEach(option => {
     const ticket = document.createElement('span');
     ticket.className = 'ticket-chip';
-    const modulo = booking.prisonModule || booking.representative?.modulo || '-';
-    ticket.textContent = `${booking.date || '-'} ${booking.time || '--:--'} · ${booking.customer || 'Sin nombre'} · módulo ${modulo}`;
+    ticket.textContent = option.textContent || option.value;
     gendarmeriaSelectedTickets.appendChild(ticket);
   });
 }
@@ -3068,12 +2943,18 @@ function renderPrisonVisitsList() {
   const filterValue = String(prisonLawyerFilter.value || '').trim();
   const visits = getFilteredPrisonVisitsForReport().filter(booking => !filterValue || booking.assignedTo === filterValue);
 
-  if (prisonVisitedSection) prisonVisitedSection.hidden = role === 'Abogada';
+  if (prisonVisitedSection) {
+    if (role === 'Abogada') {
+      prisonVisitedSection.hidden = true;
+      prisonVisitedSection.style.display = 'none';
+    } else {
+      prisonVisitedSection.hidden = false;
+      prisonVisitedSection.style.display = 'block';
+    }
+  }
   renderGendarmeriaVisitOptions();
   renderPrisonTomorrowReadonlyList();
   prisonVisitsBody.replaceChildren();
-
-  if (role === 'Abogada') return;
 
   if (!visits.length) {
     const row = document.createElement('tr');
@@ -3317,37 +3198,11 @@ function renderProfiles() {
   const list = document.createElement('ul');
   list.className = 'profile-simple-list';
 
-  const role = getCurrentSessionRole();
   const visibleProfiles = profilesExpanded ? profiles : profiles.slice(0, PROFILE_PREVIEW_SIZE);
   visibleProfiles.forEach(profile => {
     const item = document.createElement('li');
     const permissions = (profile.permissions || []).join(', ') || 'Sin permisos definidos';
-
-    const label = document.createElement('span');
-    label.textContent = `${profile.name || 'Sin nombre'} · ${profile.role || 'Sin rol'} · ${profile.username || '-'} · Permisos: ${permissions}`;
-    item.appendChild(label);
-
-    if (role === 'Admin' && (profile.role || '') === 'Abogada') {
-      const deleteBtn = document.createElement('button');
-      deleteBtn.type = 'button';
-      deleteBtn.className = 'switch-btn';
-      deleteBtn.textContent = 'Eliminar';
-      deleteBtn.onclick = () => {
-        const username = String(profile.username || '').trim().toLowerCase();
-        if (!username) return;
-        if (!window.confirm(`¿Eliminar usuario ${profile.name || username}?`)) return;
-
-        saveProfiles(getProfiles().filter(item => String(item.username || '').trim().toLowerCase() !== username));
-        saveLawyers(getLawyers().filter(lawyer => {
-          const emailUser = String(lawyer.email || '').trim().toLowerCase().split('@')[0];
-          return emailUser !== username;
-        }));
-        renderAll();
-        showToast('Usuario eliminado correctamente.');
-      };
-      item.appendChild(deleteBtn);
-    }
-
+    item.textContent = `${profile.name || 'Sin nombre'} · ${profile.role || 'Sin rol'} · ${profile.username || '-'} · Permisos: ${permissions}`;
     list.appendChild(item);
   });
 
@@ -3822,15 +3677,15 @@ document.addEventListener('click', event => {
 if (gendarmeriaVisitSelect) gendarmeriaVisitSelect.addEventListener('change', renderGendarmeriaSelectedTickets);
 
 function getSelectedGendarmeriaVisits() {
-  const visits = getTomorrowPrisonVisitsForGendarmeria();
-  const bookingIds = visits.map(item => item.id).filter(Boolean);
+  const bookingIds = Array.from(gendarmeriaVisitSelect?.selectedOptions || []).map(option => option.value).filter(Boolean);
+  const visits = getVisibleBookingsForSession(getBookings()).filter(item => bookingIds.includes(item.id) && isPrisonVisit(item));
   return { bookingIds, visits };
 }
 
 if (previewGendarmeriaEmailBtn) previewGendarmeriaEmailBtn.addEventListener('click', () => {
   const { bookingIds, visits } = getSelectedGendarmeriaVisits();
   if (!bookingIds.length || !visits.length) {
-    showToast('No hay visitas a la cárcel para mañana.');
+    showToast('Selecciona visitas para previsualizar el correo de Gendarmería.');
     gendarmeriaVisitSelect?.focus();
     return;
   }
@@ -3847,7 +3702,7 @@ if (previewGendarmeriaEmailBtn) previewGendarmeriaEmailBtn.addEventListener('cli
 if (sendGendarmeriaTestEmailBtn) sendGendarmeriaTestEmailBtn.addEventListener('click', async () => {
   const { visits } = getSelectedGendarmeriaVisits();
   if (!visits.length) {
-    showToast('No hay presos agendados para mañana.');
+    showToast('Selecciona al menos un preso para enviar prueba.');
     gendarmeriaVisitSelect?.focus();
     return;
   }
